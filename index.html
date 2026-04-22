@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Débat — 2027</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Source+Serif+4:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo" onclick="goTo('home'); return false;">Le Débat — 2027</a>
+    <div class="nav-links">
+      <button onclick="goTo('home')" data-page="home">🏠 <span class="nav-label">Accueil</span></button>
+      <button onclick="goTo('carte')" data-page="carte">🗺️ <span class="nav-label">Carte</span></button>
+      <button onclick="goTo('candidats')" data-page="candidats">👤 <span class="nav-label">Candidats</span></button>
+      <button onclick="goTo('debat')" data-page="debat">⚔️ <span class="nav-label">Débat</span></button>
+      <button onclick="goTo('archives')" data-page="archives">📺 <span class="nav-label">Archives</span></button>
+      <button onclick="goTo('bilan')" data-page="bilan">🎯 <span class="nav-label">Mon bilan</span></button>
+    </div>
+  </nav>
+
+  <section id="page-home" class="page active">
+    <div class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-flag">🇫🇷</div>
+        <p class="hero-kicker">Présidentielle 2027 · Esprit critique · Zéro opinion</p>
+        <h1 class="hero-title">Le Débat — 2027</h1>
+        <p class="hero-text">Explore la carte, découvre les candidats, débat avec une IA qui te challenge — sans jamais te dire quoi penser.</p>
+
+        <div class="hero-countdown">
+          <p class="countdown-label">1er tour — 11 avril 2027</p>
+          <div class="countdown" id="countdown"></div>
+        </div>
+
+        <div class="hero-buttons">
+          <button onclick="goTo('carte')">🗺️ Carte</button>
+          <button onclick="goTo('candidats')">👤 Candidats</button>
+          <button onclick="goTo('debat')">⚔️ Débat</button>
+          <button onclick="goTo('archives')">📺 Archives</button>
+          <button onclick="goTo('bilan')">🎯 Mon bilan</button>
+        </div>
+
+        <div class="hero-sondage" id="hero-sondage"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">🔥 Sujets brûlants</h2>
+      <p class="section-sub">Clique → l'IA te challenge</p>
+      <div class="topics-grid" id="topics-grid"></div>
+    </div>
+  </section>
+
+  <section id="page-carte" class="page">
+    <div class="section section-xxl">
+      <h2 class="section-title">🗺️ Carte politique de France</h2>
+      <p class="section-sub">Tout doit tenir d’un coup d’œil : structure, actualités et IA sur la même première vision.</p>
+      <div class="carte-layout">
+        <div class="carte-map-container">
+          <div class="carte-tabs">
+            <button class="carte-tab active" onclick="switchMapView('region')">🗺️ Régions</button>
+            <button class="carte-tab" onclick="switchMapView('dept')">📍 Départements</button>
+            <button class="carte-tab" onclick="switchMapView('news')">📡 News</button>
+          </div>
+          <div id="map-container" class="map-svg-container"></div>
+          <div class="map-legend" id="map-legend"></div>
+          <p class="map-hint" id="map-hint">Clic = infos région</p>
+        </div>
+        <div class="carte-panel" id="carte-panel">
+          <div class="empty-panel">
+            <span class="empty-icon">👈</span>
+            <p>Clique sur une région</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-candidats" class="page">
+    <div class="section section-wide">
+      <h2 class="section-title">👤 Les forces en présence — 2027</h2>
+      <p class="section-sub">Clique sur un parti pour plonger dans son univers et débattre avec l'IA</p>
+      <div id="parties-grid" class="parties-grid"></div>
+      <div id="candidat-detail" style="display:none"></div>
+      <div id="candidat-chat-global" class="candidat-chat-section" style="display:none">
+        <h3 class="candidat-chat-title">💬 Débattre des candidats et des partis</h3>
+        <div id="candidat-chat" class="panel-chat"></div>
+      </div>
+    </div>
+  </section>
+
+<section id="page-debat" class="page">
+  <div class="section section-wide">
+    <h2 class="section-title">⚔️ Débat</h2>
+    <p class="section-sub">Réagis à l'actualité ou confronte-toi aux grands clivages de fond.</p>
+
+    <div class="debate-mode-strip">
+      <button class="debate-mode-card active" data-debat-tab="actu" onclick="switchToTab('actu')">
+        <span class="debate-mode-icon">🔥</span>
+        <span class="debate-mode-title">Actu</span>
+        <span class="debate-mode-desc">Ce dont on parle en ce moment</span>
+      </button>
+      <button class="debate-mode-card" data-debat-tab="challenge" onclick="switchToTab('challenge')">
+        <span class="debate-mode-icon">⚔️</span>
+        <span class="debate-mode-title">Débat de fond</span>
+        <span class="debate-mode-desc">Les grands clivages permanents</span>
+      </button>
+    </div>
+
+    <!-- ACTU (bulles médiatiques + tweets) -->
+    <div class="debate-tab-panel active" id="debat-tab-actu">
+      <div class="actu-section">
+        <div class="actu-tabs">
+          <button class="actu-tab active" onclick="switchActuScope('national')">🇫🇷 National</button>
+          <button class="actu-tab" onclick="switchActuScope('international')">🌍 International</button>
+        </div>
+        <div id="actu-bubbles" class="actu-bubbles"></div>
+      </div>
+
+      <div class="actu-tweets-section">
+        <h3 class="actu-tweets-title">🐦 Ce qui buzze sur les réseaux</h3>
+        <div class="tendances-grid" id="tendances-grid"></div>
+      </div>
+
+      <!-- Overlay tweet -->
+      <div class="tweet-focus-overlay" id="tweet-focus-overlay" aria-hidden="true">
+        <div class="tweet-focus-backdrop" onclick="closeTweetOverlay()"></div>
+        <div class="tweet-focus-modal" id="tweet-focus-modal">
+          <button class="tweet-focus-close" onclick="closeTweetOverlay()">✕</button>
+          <div class="tweet-focus-modal-content" id="tweet-focus-modal-content"></div>
+        </div>
+      </div>
+
+      <!-- Overlay actu -->
+      <div class="actu-overlay" id="actu-overlay" aria-hidden="true">
+        <div class="actu-overlay-backdrop" onclick="closeActuOverlay()"></div>
+        <div class="actu-overlay-modal">
+          <button class="actu-overlay-close" onclick="closeActuOverlay()">✕</button>
+          <div id="actu-overlay-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DÉBAT DE FOND -->
+    <div class="debate-tab-panel" id="debat-tab-challenge">
+      <div class="duel-setup" id="duel-setup">
+        <div class="duel-topics" id="duel-topics"></div>
+      </div>
+      <div class="duel-arena" id="duel-arena" style="display:none"></div>
+    </div>
+
+  </div>
+</section>
+
+  <section id="page-bilan" class="page">
+    <div class="section section-wide">
+      <h2 class="section-title">🎯 Mon profil de débatteur</h2>
+      <p class="section-sub">Analyse complète basée sur toutes tes interactions avec l'IA.</p>
+      <div id="bilan-container"></div>
+    </div>
+  </section>
+
+  <section id="page-archives" class="page">
+    <div class="section section-wide">
+      <h2 class="section-title">📺 Archives des grands débats</h2>
+      <p class="section-sub">Revisite les face-à-face marquants, regarde la vidéo, puis débat avec un contradicteur qui incarne l’un des deux camps.</p>
+      <div id="archives-view"></div>
+    </div>
+  </section>
+
+  <div id="debat-overlay" class="debat-overlay">
+    <div class="debat-modal">
+      <div class="debat-left" id="debat-content"></div>
+      <div class="debat-right">
+        <div id="debat-chat"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    Le Débat — 2027 · Site éducatif · Aucune opinion politique · L'IA challenge, elle ne juge pas
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="ai.js"></script>
+  <script src="carte.js"></script>
+  <script src="chat.js"></script>
+  <script src="duel.js"></script>
+  <script src="tendances.js"></script>
+  <script src="bilan.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
