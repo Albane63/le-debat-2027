@@ -4,8 +4,28 @@
 
 const AI_SYSTEM = `Tu es l'IA du site "Le Débat — 2027". Tu ne donnes JAMAIS ton opinion politique. Tu CHALLENGES l'utilisateur avec la méthode socratique. Tu es neutre, bienveillant mais exigeant. Réponds en français, 3-5 phrases max, termine par une question ouverte.`;
 
-// ── Appel API réel (quand API_KEY est défini) ──
+// ── Détection automatique : local vs en ligne ──
+function isLocalEnvironment() {
+  // Si on est sur ton PC, l'URL commence par "file://" ou "localhost"
+  // Si on est en ligne, c'est ton-site.netlify.app
+  return window.location.protocol === "file:" || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+}
+
+// ── Appel API réel ──
+// En LOCAL : appel direct à Claude (avec la clé de config.local.js)
+// EN LIGNE : appel à la Netlify Function (clé cachée côté serveur)
 async function callRealAPI(messages, systemPrompt) {
+  if (isLocalEnvironment()) {
+    // Mode LOCAL — appel direct (clé locale)
+    return await callClaudeDirectly(messages, systemPrompt);
+  } else {
+    // Mode EN LIGNE — appel via Netlify Function
+    return await callClaudeViaProxy(messages, systemPrompt);
+  }
+}
+
+// ── Appel direct à Claude (mode local uniquement) ──
+async function callClaudeDirectly(messages, systemPrompt) {
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
@@ -25,6 +45,26 @@ async function callRealAPI(messages, systemPrompt) {
   if (data.error) {
     console.warn("API error:", data.error.message);
     throw new Error(data.error.message);
+  }
+  return data.content?.map(b => b.text || "").join("") || "Erreur. Réessaie !";
+}
+
+// ── Appel via Netlify Function (mode en ligne) ──
+async function callClaudeViaProxy(messages, systemPrompt) {
+  const res = await fetch("/api/claude", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      messages: messages,
+      system: systemPrompt || AI_SYSTEM,
+    }),
+  });
+  const data = await res.json();
+  if (data.error) {
+    console.warn("Proxy error:", data.error);
+    throw new Error(data.error.message || data.error);
   }
   return data.content?.map(b => b.text || "").join("") || "Erreur. Réessaie !";
 }
@@ -212,7 +252,11 @@ function simulateAI(userText, context) {
 
 // ── Interface unifiée ──
 async function askAI(messages, systemPrompt) {
-  if (API_KEY && API_KEY.length > 10) {
+  // En ligne : on essaie toujours la vraie API (la clé est côté serveur)
+  // En local : on essaie seulement si la clé est définie dans config.local.js
+  const shouldTryRealAPI = !isLocalEnvironment() || (typeof API_KEY !== 'undefined' && API_KEY && API_KEY.length > 10);
+
+  if (shouldTryRealAPI) {
     try {
       return await callRealAPI(messages, systemPrompt || AI_SYSTEM);
     } catch (e) {
