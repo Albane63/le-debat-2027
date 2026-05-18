@@ -4,13 +4,48 @@
 // ═══════════════════════════════════════════
 
 let activeTweet = null;
+// ── Chargement dynamique des actus depuis actus.json ──
+let DYNAMIC_TWEETS = null;
 
-function initTendances() {
+async function loadActusFromJSON() {
+  try {
+    const response = await fetch("actus.json?t=" + Date.now()); // anti-cache
+    if (!response.ok) {
+      console.warn("Impossible de charger actus.json, fallback sur getCurrentTweets()");
+      return null;
+    }
+    const data = await response.json();
+    if (data && Array.isArray(data.tweets) && data.tweets.length > 0) {
+      console.log("✅ Actus chargées depuis actus.json (mise à jour:", data.lastUpdate, ")");
+      return data.tweets;
+    }
+    return null;
+  } catch (err) {
+    console.warn("Erreur chargement actus.json:", err);
+    return null;
+  }
+}
+
+// Helper : retourne soit les actus dynamiques, soit le fallback getCurrentTweets()
+function getCurrentTweets() {
+  if (DYNAMIC_TWEETS && Array.isArray(DYNAMIC_TWEETS) && DYNAMIC_TWEETS.length > 0) {
+    return DYNAMIC_TWEETS;
+  }
+  return (typeof getCurrentTweets() !== "undefined" && Array.isArray(getCurrentTweets())) ? getCurrentTweets() : [];
+}
+
+async function initTendances() {
+  // Charger les actus depuis actus.json (avec fallback sur FAKE_TWEETS)
+  if (DYNAMIC_TWEETS === null) {
+    DYNAMIC_TWEETS = await loadActusFromJSON();
+  }
+
   const grid = document.getElementById("tendances-grid");
   const overlay = document.getElementById("tweet-focus-overlay");
   const modalContent = document.getElementById("tweet-focus-modal-content");
 
-  if (!grid || typeof FAKE_TWEETS === "undefined" || !Array.isArray(FAKE_TWEETS)) return;
+  const tweets = getCurrentTweets();
+if (!grid || tweets.length === 0) return;
 
   if (overlay) {
     overlay.classList.remove("open");
@@ -21,7 +56,7 @@ function initTendances() {
     modalContent.innerHTML = "";
   }
 
-  grid.innerHTML = FAKE_TWEETS.map((t, i) => {
+  grid.innerHTML = tweets.map((t, i) => {
     const badge = getTrendBadge(t.topic);
     return `
       <div class="tweet-card tweet-card-v2 tweet-card-overlay-trigger" onclick="openTweetDebat(${i})">
@@ -163,8 +198,9 @@ function getTweetUnderlyingThemes(tweet) {
 }
 
 function openTweetDebat(index) {
-  if (!Array.isArray(FAKE_TWEETS) || !FAKE_TWEETS[index]) return;
-  activeTweet = FAKE_TWEETS[index];
+  const tweets = getCurrentTweets();
+  if (!Array.isArray(tweets) || !tweets[index]) return;
+  activeTweet = tweets[index];
   renderTweetOverlay(index);
 }
 

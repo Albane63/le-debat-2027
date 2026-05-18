@@ -1,7 +1,47 @@
 // ═══════════════════════════════════════════
 // app.js — Navigation + Toutes les pages
 // ═══════════════════════════════════════════
+// ─── Chargement dynamique des actus depuis actus.json ───
+let DYNAMIC_MEDIA_TOPICS = null;
+let DYNAMIC_HOT_TOPICS = null;
+let _actusLoadPromise = null;
 
+async function loadDynamicActus() {
+  if (_actusLoadPromise) return _actusLoadPromise;
+  _actusLoadPromise = (async () => {
+    try {
+      const response = await fetch("actus.json?t=" + Date.now());
+      if (!response.ok) return null;
+      const data = await response.json();
+      if (data && Array.isArray(data.mediaTopics) && data.mediaTopics.length > 0) {
+        DYNAMIC_MEDIA_TOPICS = data.mediaTopics;
+      }
+      if (data && Array.isArray(data.hotTopics) && data.hotTopics.length > 0) {
+        DYNAMIC_HOT_TOPICS = data.hotTopics;
+      }
+      return data;
+    } catch (err) {
+      console.warn("Erreur chargement actus.json (app.js):", err);
+      return null;
+    }
+  })();
+  return _actusLoadPromise;
+}
+
+// Helpers : retourne soit les actus dynamiques, soit le fallback en dur
+function getCurrentMediaTopics() {
+  if (DYNAMIC_MEDIA_TOPICS && Array.isArray(DYNAMIC_MEDIA_TOPICS) && DYNAMIC_MEDIA_TOPICS.length > 0) {
+    return DYNAMIC_MEDIA_TOPICS;
+  }
+  return (typeof window !== "undefined" && typeof window.MEDIA_TOPICS !== "undefined") ? window.MEDIA_TOPICS : [];
+}
+
+function getCurrentHotTopics() {
+  if (DYNAMIC_HOT_TOPICS && Array.isArray(DYNAMIC_HOT_TOPICS) && DYNAMIC_HOT_TOPICS.length > 0) {
+    return DYNAMIC_HOT_TOPICS;
+  }
+  return (typeof window !== "undefined" && typeof window.HOT_TOPICS !== "undefined") ? window.HOT_TOPICS : [];
+}
 let currentPage = "home";
 let currentDebatTab = "actu";
 let currentActuScope = "national";
@@ -64,8 +104,8 @@ function renderHomeSondage() {
 // ═══════════════════════════════════════════
 function renderHomeTopics() {
   var c = document.getElementById("topics-grid");
-  if (!c || typeof HOT_TOPICS === "undefined" || !Array.isArray(HOT_TOPICS)) return;
-  c.innerHTML = HOT_TOPICS.map(function(t) {
+  if (!c || typeof getCurrentHotTopics() === "undefined" || !Array.isArray(getCurrentHotTopics())) return;
+  c.innerHTML = getCurrentHotTopics().map(function(t) {
     return '<button class="topic-card" onclick="goTo(\'debat\')">' +
       '<span class="topic-emoji">' + t.emoji + '</span>' +
       '<span class="topic-cat">' + t.cat + '</span>' +
@@ -111,14 +151,14 @@ function switchActuScope(scope) {
 
 function renderActuBubbles(scope) {
   var container = document.getElementById("actu-bubbles");
-  if (!container || typeof MEDIA_TOPICS === "undefined") return;
-  var topics = MEDIA_TOPICS[scope];
+  if (!container || typeof getCurrentMediaTopics() === "undefined") return;
+  var topics = getCurrentMediaTopics()[scope];
   if (!topics || !topics.length) return;
   var max = Math.max.apply(null, topics.map(function(t){ return t.pct; }));
   if (max < 1) max = 1;
 
   var html = '<div class="actu-method-bar">' +
-    '<span class="actu-method-period">📅 ' + (MEDIA_TOPICS.period || '') + '</span>' +
+    '<span class="actu-method-period">📅 ' + (getCurrentMediaTopics().period || '') + '</span>' +
     '<span class="actu-method-label">JT 20h (TF1, France 2, BFMTV) + presse (Le Monde, Le Figaro, Libération, Les Échos)</span></div>';
 
   html += '<div class="actu-bubbles-grid">';
@@ -132,12 +172,12 @@ function renderActuBubbles(scope) {
       '<div class="actu-bubble-mentions">' + (t.mentions || '') + ' mentions</div></div>';
   });
   html += '</div>';
-  html += '<p class="actu-source">⚠️ Données fictives à but éducatif · Mis à jour le ' + (MEDIA_TOPICS.updatedAt || '') + '</p>';
+  html += '<p class="actu-source">⚠️ Données fictives à but éducatif · Mis à jour le ' + (getCurrentMediaTopics().updatedAt || '') + '</p>';
   container.innerHTML = html;
 }
 
 function openActuTopic(scope, index) {
-  var topics = (typeof MEDIA_TOPICS !== "undefined" && MEDIA_TOPICS[scope]) ? MEDIA_TOPICS[scope] : [];
+  var topics = (typeof getCurrentMediaTopics() !== "undefined" && getCurrentMediaTopics()[scope]) ? getCurrentMediaTopics()[scope] : [];
   var t = topics[index];
   if (!t) return;
   var overlay = document.getElementById("actu-overlay");
@@ -163,9 +203,9 @@ function openActuTopic(scope, index) {
         '<div class="actu-detail-section"><h4>📋 De quoi on parle</h4><p>' + t.desc + '</p></div>' +
         '<div class="actu-detail-section"><h4>📡 Contexte</h4><p>' + t.context + '</p></div>' +
         '<div class="actu-detail-section actu-detail-debate"><h4>❓ La question de fond</h4><p class="actu-debate-q">' + t.debate + '</p></div>' +
-        '<div class="actu-detail-section"><h4>📰 Sources (' + (MEDIA_TOPICS.period || '') + ')</h4>' +
+        '<div class="actu-detail-section"><h4>📰 Sources (' + (getCurrentMediaTopics().period || '') + ')</h4>' +
           '<div class="actu-sources-list">' + sourcesHtml + '</div>' +
-          '<p class="actu-method-note">Méthode : ' + (MEDIA_TOPICS.method || '') + '</p>' +
+          '<p class="actu-method-note">Méthode : ' + (getCurrentMediaTopics().method || '') + '</p>' +
         '</div>' +
       '</div>' +
     '</div>' +

@@ -1,0 +1,146 @@
+{
+  "lastUpdate": "2026-05-11T20:11:00.472Z",
+  "tweets": [
+    {
+      "id": "auto-1",
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "economie",
+      "text": "Emmanuel Macron annonce 23 milliards d'euros d'investissements en Afrique lors du sommet de Nairobi. Une stratégie pour renforcer l'influence française sur le continent.",
+      "likes": 2150,
+      "rt": 890
+    },
+    {
+      "id": "auto-2",
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "gauche",
+      "text": "Crise au Parti socialiste : Boris Vallaud quitte la direction. Olivier Faure reste en place mais sans majorité. La gauche peine à se structurer pour 2027.",
+      "likes": 1840,
+      "rt": 710
+    },
+    {
+      "id": "auto-3",
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "sondages",
+      "text": "Sondage alarmant dans les Landes : le RN progresse silencieusement en terrain socialiste traditionnel. La peur l'emporte sur les chiffres objectifs d'insécurité.",
+      "likes": 3120,
+      "rt": 1240
+    },
+    {
+      "id": "auto-4",
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "systeme",
+      "text": "Nicolas Sarkozy jugé pour association de malfaiteurs : le parquet requiert sa condamnation pour financement occulte de sa campagne 2007. Le procès en appel se poursuit.",
+      "likes": 4560,
+      "rt": 2180
+    },
+    {
+      "id": "auto-5",
+      "author": "Le Figaro",
+      "handle": "@LeFigaro",
+      "topic": "centre",
+      "text": "À un an de la fin de son mandat, Macron se concentre sur la scène internationale pour valoriser son héritage politique face à une impopularité persistante.",
+      "likes": 1950,
+      "rt": 620
+    },
+    {
+      "id": "auto-6",
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "systeme",
+      "text": "Emmanuel Moulin, secrétaire général de l'Élysée, nommé gouverneur de la Banque de France. Une nomination qui alimente les critiques sur le népotisme macroniste.",
+      "likes": 2840,
+      "rt": 1100
+    },
+    {
+      "id": "auto-7",
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "economie",
+      "text": "Le Parlement adopte un texte de lutte contre les fraudes sociales et fiscales. 1,5 milliard d'euros attendus pour l'État grâce à une meilleure détection.",
+      "likes": 1670,
+      "rt": 540
+    },
+    {
+      "id": "auto-8",
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "systeme",
+      "text": "Six féminicides en neuf jours de mai. La « grande cause du quinquennat » continue de faire long feu face à une indifférence persistante et chiffrée.",
+      "likes": 5230,
+      "rt": 2960
+    }
+  ],
+  "mediaTopics": [
+    {
+      "label": "Présidentielle 2027",
+      "pct": 28,
+      "color": "#2563EB"
+    },
+    {
+      "label": "Gouvernance & Institutions",
+      "pct": 22,
+      "color": "#DC2626"
+    },
+    {
+      "label": "Gauche en crise",
+      "pct": 18,
+      "color": "#EF4444"
+    },
+    {
+      "label": "Politique africaine",
+      "pct": 12,
+      "color": "#F59E0B"
+    },
+    {
+      "label": "Fraudes & Justice",
+      "pct": 10,
+      "color": "#6366F1"
+    },
+    {
+      "label": "Sécurité & Féminicides",
+      "pct": 7,
+      "color": "#7C3AED"
+    },
+    {
+      "label": "Autres dossiers",
+      "pct": 3,
+      "color": "#94A3B8"
+    }
+  ],
+  "hotTopics": [
+    {
+      "id": "topic-1",
+      "title": "L'unité de la gauche est-elle possible en 2027 ?",
+      "summary": "Entre la crise interne du PS et la domination de LFI, comment la gauche peut-elle construire un projet fédérateur à un an de la présidentielle ?"
+    },
+    {
+      "id": "topic-2",
+      "title": "Macron redore-t-il son bilan par la diplomatie ?",
+      "summary": "Alors que son impopularité persiste en France, le président mène une stratégie internationale tous azimuts. Peut-elle suffire à redorer son héritage ?"
+    },
+    {
+      "id": "topic-3",
+      "title": "Le RN progresse-t-il vraiment ou se propage-t-il seulement ?",
+      "summary": "Des observateurs notent une montée silencieuse de l'extrême droite en zones socialistes. Comment mesurer et anticiper cette évolution ?"
+    },
+    {
+      "id": "topic-4",
+      "title": "Les nominations macronistes reflètent-elles un système fermé ?",
+      "summary": "Amélie de Montchalin, Richard Ferrand, Emmanuel Moulin : les renvois d'ascenseur questionnent la méritocratie des hautes institutions."
+    },
+    {
+      "id": "topic-5",
+      "title": "Villepin peut-il incarner une alternative en 2027 ?",
+      "summary": "Ses ambitions présidentielles grandissent, mais ses liens avec des lobbyistes et questions d'intérêts pèsent sur sa crédibilité."
+    },
+    {
+      "id": "topic-6",
+      "title": "L'État protège-t-il efficacement contre les violences ?",
+      "summary": "Entre féminicides en série et violence lors de manifestations, le bilan sécuritaire du quinquennat interroge l'action publique."
+    }
+  ]
+}

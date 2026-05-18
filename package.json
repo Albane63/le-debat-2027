@@ -1,0 +1,12 @@
+{
+  "name": "le-debat-2027-scripts",
+  "version": "1.0.0",
+  "description": "Robot d'actualités pour Le Débat 2027",
+  "type": "module",
+  "scripts": {
+    "fetch-actus": "node scripts/fetch-actus.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
