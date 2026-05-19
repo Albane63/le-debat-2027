@@ -1,0 +1,54 @@
+name: Fetch Actus Hebdomadaire
+
+# QUAND ce workflow se déclenche
+on:
+  schedule:
+    # Tous les lundis à 8h00 UTC (= 9h00 ou 10h00 heure française selon la saison)
+    - cron: '0 8 * * 1'
+  
+  # Permet aussi de déclencher manuellement depuis l'interface GitHub
+  workflow_dispatch:
+
+# CE QUE le workflow fait
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Nécessaire pour pouvoir commiter le nouvel actus.json
+    
+    steps:
+      # 1. Récupère le code du repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      # 2. Installe Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      # 3. Installe les dépendances (rss-parser, etc.)
+      - name: Install dependencies
+        run: npm install
+      
+      # 4. Lance le robot avec la clé API en variable d'environnement
+      - name: Run fetch-actus robot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/fetch-actus.js
+      
+      # 5. Commit et push si actus.json a changé
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add actus.json
+          
+          if git diff --staged --quiet; then
+            echo "Aucun changement dans actus.json, rien à commiter."
+          else
+            git commit -m "🤖 Mise à jour automatique des actus ($(date +'%Y-%m-%d'))"
+            git push
+            echo "✅ actus.json mis à jour et poussé sur GitHub."
+          fi
