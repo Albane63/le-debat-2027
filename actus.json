@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-05-19T09:11:45.603Z",
+  "lastUpdate": "2026-06-01T13:30:10.044Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
       "topic": "systeme",
-      "text": "Présidentielle 2027 : l'Assemblée propose une « banque de la démocratie » pour financer les campagnes électorales face au désengagement des banques privées.",
-      "likes": 2100,
-      "rt": 680
+      "text": "André Santini, maire d'Issy-les-Moulineaux pendant 43 ans, est décédé à 85 ans. Un bâtisseur qui a transformé sa ville, mais aussi un parcours marqué par des accusations de harcèlement.",
+      "likes": 2847,
+      "rt": 1056
     },
     {
       "id": "auto-2",
-      "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "economie",
-      "text": "Cotisations salariales : le patronat refuse de réduire ses allègements malgré la hausse du Smic, laissant l'État compenser le manque à gagner.",
-      "likes": 1650,
-      "rt": 520
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "systeme",
+      "text": "Climat et démocratie en crise : comment mobiliser les citoyens sur des enjeux dont les effets se feront sentir dans décennies? Un débat philosophique et politique fondamental.",
+      "likes": 1923,
+      "rt": 847
     },
     {
       "id": "auto-3",
       "author": "Libération",
       "handle": "@libe",
-      "topic": "centre",
-      "text": "Bernard Cazeneuve confirme sa candidature 2027, se positionnant comme alternative social-démocrate face aux « dégagismes » d'extrême droite et gauche.",
-      "likes": 2340,
-      "rt": 890
+      "topic": "gauche",
+      "text": "Mathilde Panot harcelée par un terroriste d'extrême droite : la patronne des députés LFI demande la relance des poursuites après annulation d'une procédure pour vice de forme.",
+      "likes": 3156,
+      "rt": 1204
     },
     {
       "id": "auto-4",
-      "author": "Le Figaro",
-      "handle": "@lefigaro",
-      "topic": "gauche",
-      "text": "Éric Zemmour : « Mon adversaire, c'est Mélenchon et sa nouvelle France ». Le candidat de Reconquête redéfinit ses frontières politiques pour 2027.",
-      "likes": 1820,
-      "rt": 720
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "economie",
+      "text": "Record historique : 93 milliards d'euros d'investissements étrangers annoncés au sommet Choose France. Le nucléaire et l'IA au cœur de l'attractivité française.",
+      "likes": 2401,
+      "rt": 892
     },
     {
       "id": "auto-5",
-      "author": "France Info",
-      "handle": "@franceinfo",
+      "author": "Le Monde",
+      "handle": "@lemondefr",
       "topic": "sondages",
-      "text": "Le RN boucle son programme à 95% en attendant le verdict judiciaire : Marine Le Pen ou Jordan Bardella candidat ? Le suspense demeure.",
-      "likes": 2560,
-      "rt": 1040
+      "text": "Présidentielle 2027 : les candidats du bloc central craignent un face-à-face LFI-RN. Le gouvernement Lecornu peine à maintenir sa neutralité durant la précampagne.",
+      "likes": 1678,
+      "rt": 625
     },
     {
       "id": "auto-6",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "systeme",
-      "text": "Un duel de femmes inédit pour la présidence du CESE : le Conseil économique, social et environnemental en crise de légitimité cherche un nouveau leader.",
-      "likes": 1380,
-      "rt": 450
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "gauche",
+      "text": "PCF et insoumis : Fabien Roussel réaffirme que son parti ne soutiendra ni Mélenchon ni Glucksmann. Les positions se durcissent à gauche avant 2027.",
+      "likes": 1245,
+      "rt": 456
     },
     {
       "id": "auto-7",
-      "author": "Mediapart",
-      "handle": "@mediapart",
+      "author": "Le Figaro",
+      "handle": "@lefigaro",
       "topic": "systeme",
-      "text": "Commissions d'enquête parlementaires : les droits de la défense ne sont pas garantis. Un collectif de juristes appelle à une réforme urgente.",
-      "likes": 1720,
-      "rt": 610
+      "text": "Violences après la victoire du PSG : 30% d'interpellations supplémentaires en un an. La classe politique cherche des solutions face aux débordements.",
+      "likes": 3089,
+      "rt": 1401
     },
     {
       "id": "auto-8",
-      "author": "Libération",
-      "handle": "@libe",
+      "author": "Le Monde",
+      "handle": "@lemondefr",
       "topic": "economie",
-      "text": "Actualisation de la loi de programmation militaire : 36 milliards d'euros de dépenses supplémentaires d'ici 2030. Vote solennel ce 19 mai.",
-      "likes": 1950,
-      "rt": 680
+      "text": "L'expertise scientifique est sous attaque : climatologues, chercheurs médicaux et sociologues s'organisent pour que la science pèse davantage dans les débats publics.",
+      "likes": 1834,
+      "rt": 723
     }
   ],
   "mediaTopics": [
     {
       "label": "Présidentielle 2027",
-      "pct": 28,
-      "color": "#1F2937"
-    },
-    {
-      "label": "Économie et finances",
-      "pct": 18,
-      "color": "#DC2626"
-    },
-    {
-      "label": "Rassemblement National",
-      "pct": 16,
-      "color": "#7F1D1D"
-    },
-    {
-      "label": "Institutions et réformes",
-      "pct": 14,
+      "pct": 22,
       "color": "#2563EB"
     },
     {
-      "label": "Culture et cinéma",
-      "pct": 10,
-      "color": "#9333EA"
+      "label": "Économie et investissements",
+      "pct": 18,
+      "color": "#059669"
     },
     {
-      "label": "Défense et international",
-      "pct": 8,
+      "label": "Gouvernance et réformes",
+      "pct": 16,
+      "color": "#7C3AED"
+    },
+    {
+      "label": "Ordre public et violence",
+      "pct": 15,
+      "color": "#DC2626"
+    },
+    {
+      "label": "Crise climatique",
+      "pct": 12,
+      "color": "#EA580C"
+    },
+    {
+      "label": "Science et expertise",
+      "pct": 10,
       "color": "#0891B2"
     },
     {
-      "label": "Questions sociales",
-      "pct": 6,
-      "color": "#65A30D"
+      "label": "Figures politiques et héritages",
+      "pct": 7,
+      "color": "#6B7280"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "Le financement de la démocratie en crise",
-      "summary": "Face au désengagement des banques privées, une « banque de la démocratie » peut-elle restaurer la confiance dans le financement équitable des campagnes électorales ?"
+      "title": "L'IA générative transforme-t-elle le marché du travail ou l'implosion des coûts rendra-t-elle inévitable une nouvelle restructuration ?",
+      "summary": "Six mois après l'émergence des outils d'IA, les développeurs vivent une « disruption rapide ». Jusqu'où cette transformation peut-elle aller avant que les prix ne refondent le modèle ?"
     },
     {
       "id": "topic-2",
-      "title": "La fragmentation de la gauche présidentielle",
-      "summary": "Bernard Cazeneuve se positionne comme alternative social-démocrate. Comment la gauche peut-elle se réunifier face aux polarisations extrêmes ?"
+      "title": "Peut-on vraiment gouverner avec neutralité quand on brigue le pouvoir suprême ?",
+      "summary": "Le gouvernement Lecornu doit rester discret, mais ses ministres candidats affichent leurs ambitions. Comment concilier l'exigence de neutralité avec les dynamiques de la campagne ?"
     },
     {
       "id": "topic-3",
-      "title": "Les rapports de force au sein du RN",
-      "summary": "Le verdict judiciaire sur Marine Le Pen déterminera le candidat RN. Quels enjeux programmatiques et stratégiques cette succession soulève-t-elle ?"
+      "title": "La science française a-t-elle encore voix au chapitre dans les décisions publiques ?",
+      "summary": "Les chercheurs alertent sur l'érosion de leurs financements et l'ignorance de leurs avis. Faut-il repenser le rôle de l'expertise dans la démocratie contemporaine ?"
     },
     {
       "id": "topic-4",
-      "title": "Transparence et droits de la défense parlementaires",
-      "summary": "Les commissions d'enquête garantissent-elles suffisamment les libertés individuelles ? Comment renforcer le contrôle sans affaiblir l'investigation ?"
+      "title": "Comment enrayer la fragmentation de la gauche avant 2027 ?",
+      "summary": "PCF, LFI, Place publique : à chaque déclaration, les distances s'accentuent. Y a-t-il encore une majorité de gauche possible, ou la recomposition sera-t-elle inévitable ?"
     },
     {
       "id": "topic-5",
-      "title": "L'augmentation des dépenses militaires",
-      "summary": "36 milliards supplémentaires pour la défense : comment justifier cet effort budgétaire face aux enjeux sociaux ?"
+      "title": "Les violences urbaines post-victoire sportive : un problème d'ordre public ou un symptôme social plus profond ?",
+      "summary": "Reconnaissance faciale, fan-zones, limitation de ventes : la classe politique propose des réponses sécuritaires. Suffisent-elles ou faut-il ailleurs les racines du malaise ?"
     },
     {
       "id": "topic-6",
-      "title": "Politique patronale et compensation d'État",
-      "summary": "Le refus du patronat de réduire les allègements oblige l'État à compenser. Qui supporte réellement le coût des politiques d'emploi ?"
+      "title": "Héritage et responsabilité : comment les figures historiques locales sont-elles jugées après leur mort ?",
+      "summary": "André Santini : bâtisseur transformateur d'une ville ou responsable d'abus de pouvoir ? La complexité des héritages politiques se joue dans les nuances de nos mémoires."
     }
   ]
 }
