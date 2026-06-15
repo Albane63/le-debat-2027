@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-06-08T12:26:37.096Z",
+  "lastUpdate": "2026-06-15T13:48:43.172Z",
   "tweets": [
     {
       "id": "auto-1",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
+      "author": "Mediapart",
+      "handle": "@mediapart",
       "topic": "systeme",
-      "text": "Affaire Lyhanna : 70 000 plaintes pour violences sur mineurs à examiner avant le 14 juillet. Le ministère de la Justice lance une revue systématique des dossiers.",
-      "likes": 2150,
-      "rt": 680
+      "text": "Violences sexuelles sur enfants : seules 3 des 17 mesures d'urgence proposées par la Ciivise ont été mises en œuvre. Un bilan jugé insuffisant par la Commission indépendante.",
+      "likes": 2847,
+      "rt": 1523
     },
     {
       "id": "auto-2",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "gauche",
-      "text": "Jean-Luc Mélenchon installe son duel avec le RN à Saint-Denis : « une génération remplace l'autre ». La campagne insoumise 2027 s'accélère.",
-      "likes": 1840,
-      "rt": 520
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "economie",
+      "text": "G7 à Évian : Trump menace 100% de droits de douane sur le vin français. Macron doit trouver un accord sur la taxe numérique avant la fin du sommet.",
+      "likes": 3421,
+      "rt": 1876
     },
     {
       "id": "auto-3",
-      "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "systeme",
-      "text": "Sophia Chikirou (LFI) condamnée à 8 000€ d'amende pour vol de chèques, relaxée de tentative d'escroquerie. Le procès de la webtélé Le Media se conclut.",
-      "likes": 1620,
-      "rt": 445
-    },
-    {
-      "id": "auto-4",
       "author": "Libération",
       "handle": "@liberation",
       "topic": "gauche",
-      "text": "Le Parti socialiste lance son think tank Noûs pour préparer 2027. Objectif : renouveler la doctrine de la gauche sur les sujets où elle manque de clarté.",
-      "likes": 980,
-      "rt": 310
+      "text": "Marine Tondelier offre aux patrons un essai sur Hitler. Le Medef juge le geste « insultant ». Quand la satire politique divise les acteurs économiques.",
+      "likes": 1654,
+      "rt": 987
+    },
+    {
+      "id": "auto-4",
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "systeme",
+      "text": "Débat sur la peine de mort : face à l'émotion après le meurtre de Lyhanna, experts et politologues appellent à la prudence avant de relancer un débat clos depuis 1981.",
+      "likes": 4123,
+      "rt": 2456
     },
     {
       "id": "auto-5",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "systeme",
-      "text": "Patrick Bruel placé en garde à vue : trois mois après les révélations de Mediapart, le chanteur entendu pour violences sexuelles concernant 13 victimes présumées.",
-      "likes": 3240,
-      "rt": 890
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "centre",
+      "text": "Macron accueille son dernier G7. À dix mois de quitter l'Élysée, il veut consolider son bilan européen face au retour de Donald Trump.",
+      "likes": 2876,
+      "rt": 1345
     },
     {
       "id": "auto-6",
-      "author": "Le Figaro",
-      "handle": "@le_figaro",
+      "author": "Mediapart",
+      "handle": "@mediapart",
       "topic": "systeme",
-      "text": "Bruno Retailleau propose une cour disciplinaire de la justice indépendante. Suite aux failles révélées par l'affaire Lyhanna, les Républicains demandent des comptes.",
-      "likes": 1550,
-      "rt": 425
+      "text": "IA et souveraineté : Washington restreint l'accès à Anthropic aux étrangers. Une décision qui électrise unanimement tous les prétendants à l'Élysée française.",
+      "likes": 3598,
+      "rt": 2134
     },
     {
       "id": "auto-7",
       "author": "France Info",
       "handle": "@franceinfo",
-      "topic": "centre",
-      "text": "Exclusion de Mayotte de la Commission de l'océan Indien : la France reprend la présidence de l'organisation et relance le dossier diplomatique.",
-      "likes": 650,
-      "rt": 185
+      "topic": "sondages",
+      "text": "RN : Laurent Jacobelli affirme que son parti ne proposera pas la peine de mort mais respecterait un référendum en faveur. Une position prudente en période d'émotion.",
+      "likes": 2145,
+      "rt": 1234
     },
     {
       "id": "auto-8",
       "author": "Libération",
       "handle": "@liberation",
-      "topic": "sondages",
-      "text": "Législatives en Arménie : victoire historique revendiquée par le PM Nikol Pachinian. La campagne présidentielle française suit les enjeux géopolitiques.",
-      "likes": 520,
-      "rt": 160
+      "topic": "centre",
+      "text": "Corse : le RN pivote vers une autonomie encadrée, abandonnant son jacobinisme historique. Une inflexion stratégique majeure avant 2027.",
+      "likes": 1876,
+      "rt": 892
     }
   ],
   "mediaTopics": [
     {
-      "label": "Justice et affaires judiciaires",
-      "pct": 28,
-      "color": "#1F2937"
-    },
-    {
-      "label": "Campagne 2027",
-      "pct": 24,
+      "label": "Peine de mort et justice",
+      "pct": 18,
       "color": "#DC2626"
     },
     {
-      "label": "Protection de l'enfance",
-      "pct": 16,
-      "color": "#EA580C"
-    },
-    {
-      "label": "Stratégies partis politiques",
-      "pct": 14,
+      "label": "G7 et relations internationales",
+      "pct": 17,
       "color": "#2563EB"
     },
     {
-      "label": "Conflits internationaux",
-      "pct": 10,
+      "label": "Protection de l'enfance",
+      "pct": 14,
+      "color": "#EA580C"
+    },
+    {
+      "label": "Souveraineté numérique et IA",
+      "pct": 13,
+      "color": "#8B5CF6"
+    },
+    {
+      "label": "Questions régionales (Corse, Liban)",
+      "pct": 16,
+      "color": "#059669"
+    },
+    {
+      "label": "Politiques économiques et commerciales",
+      "pct": 12,
       "color": "#7C3AED"
     },
     {
-      "label": "Affaires diplomatiques",
-      "pct": 5,
-      "color": "#06B6D4"
-    },
-    {
-      "label": "Réformes institutionnelles",
-      "pct": 3,
-      "color": "#10B981"
+      "label": "Éthique publique et institutions",
+      "pct": 10,
+      "color": "#6366F1"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "Affaire Lyhanna : refonte nécessaire de la chaîne judiciaire ?",
-      "summary": "Comment améliorer réellement la protection des enfants ? Est-ce une question de responsabilité individuelle ou de dysfonctionnement systémique ?"
+      "title": "Peine de mort : faut-il rouvrir le débat après le crime de Lyhanna ?",
+      "summary": "L'émotion suscitée par le meurtre d'une enfant ravive des appels au rétablissement de la peine capitale. Où placer la ligne entre légitime demande de justice et dérive populiste ?"
     },
     {
       "id": "topic-2",
-      "title": "Crédibilité des candidats de gauche face aux affaires judiciaires",
-      "summary": "Sophia Chikirou, Sébastien Delogu, Patrick Bruel... Les scandales altèrent-ils la légitimité du projet insoumis pour 2027 ?"
+      "title": "IA et souveraineté : comment préserver l'indépendance technologique française ?",
+      "summary": "La restriction américaine sur Anthropic aux ressortissants étrangers pose la question de la dépendance technologique. La France doit-elle accélérer ses champions nationaux ?"
     },
     {
       "id": "topic-3",
-      "title": "La stratégie du vote utile : Mélenchon revient à ses anciens arguments",
-      "summary": "Depuis 2012, le discours a changé. Qu'explique ce revirement tactique à quelques mois du scrutin présidentiel ?"
+      "title": "Autonomie corse : quelle solution pour sortir du clivage traditionnel ?",
+      "summary": "Le RN abandonne le jacobinisme pour une autonomie encadrée. Comment concilier décentralisation réelle et unité républicaine sans céder aux revendications identitaires ?"
     },
     {
       "id": "topic-4",
-      "title": "Renouveau doctrinal du PS avec le think tank Noûs",
-      "summary": "Le socialisme a-t-il besoin d'un laboratoire d'idées pour retrouver une pertinence perdue ? Quels sont les vrais chantiers ?"
+      "title": "Commerce international : comment négocier face aux menaces tarifaires ?",
+      "summary": "Trump menace 100% de droits sur le vin français en raison de la taxe numérique. Macron peut-il trouver un équilibre entre protéger l'innovation et préserver les intérêts économiques ?"
     },
     {
       "id": "topic-5",
-      "title": "Les tensions Israel-Iran menacent la stabilité économique mondiale",
-      "summary": "Après deux mois de trêve fragile, les prix du pétrole remonten. Quel impact sur le pouvoir d'achat des Français ?"
+      "title": "Protection de l'enfance : pourquoi les mesures d'urgence restent-elles bloquées ?",
+      "summary": "Trois ans après les propositions de la Ciivise, seules 3 des 17 mesures ont été mises en œuvre. Qu'est-ce qui freine l'action gouvernementale face aux violences sexuelles ?"
     },
     {
       "id": "topic-6",
-      "title": "LR et consensualisme : faut-il vraiment transpartisan sur tout ?",
-      "summary": "Quand LR cosigne avec le RN et LFI, où passe la frontière entre pragmatisme et dénaturation des valeurs partisanes ?"
+      "title": "Conflits proches-orientaux : quel rôle pour la France dans le détroit d'Ormuz ?",
+      "summary": "Un accord de paix fragile se dessine. La France doit-elle participer à la stabilisation régionale et à quel coût pour ses relations avec Israël et l'Iran ?"
     }
   ]
 }
