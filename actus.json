@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-06-15T13:48:43.172Z",
+  "lastUpdate": "2026-06-22T13:28:45.938Z",
   "tweets": [
     {
       "id": "auto-1",
-      "author": "Mediapart",
-      "handle": "@mediapart",
+      "author": "Le Monde",
+      "handle": "@lemondefr",
       "topic": "systeme",
-      "text": "Violences sexuelles sur enfants : seules 3 des 17 mesures d'urgence proposées par la Ciivise ont été mises en œuvre. Un bilan jugé insuffisant par la Commission indépendante.",
+      "text": "Marc Bloch entre au Panthéon. Emmanuel Macron préside la cérémonie de panthéonisation de l'auteur de L'Étrange Défaite, sous l'œil attentif de sa famille.",
       "likes": 2847,
-      "rt": 1523
+      "rt": 1156
     },
     {
       "id": "auto-2",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
+      "author": "Mediapart",
+      "handle": "@mediapart",
       "topic": "economie",
-      "text": "G7 à Évian : Trump menace 100% de droits de douane sur le vin français. Macron doit trouver un accord sur la taxe numérique avant la fin du sommet.",
+      "text": "Éolien en mer : Iberdrola prépare des licenciements massifs malgré les aides publiques et des profits records. Une contradiction qui interpelle.",
       "likes": 3421,
-      "rt": 1876
+      "rt": 2104
     },
     {
       "id": "auto-3",
       "author": "Libération",
-      "handle": "@liberation",
-      "topic": "gauche",
-      "text": "Marine Tondelier offre aux patrons un essai sur Hitler. Le Medef juge le geste « insultant ». Quand la satire politique divise les acteurs économiques.",
-      "likes": 1654,
-      "rt": 987
+      "handle": "@libe",
+      "topic": "systeme",
+      "text": "Laurent Wauquiez a envoyé 7000 pages de notes de frais aux journalistes. Le résultat ? Un effet Streisand spectaculaire et une curiosité décuplée.",
+      "likes": 1923,
+      "rt": 1247
     },
     {
       "id": "auto-4",
       "author": "France Info",
       "handle": "@franceinfo",
       "topic": "systeme",
-      "text": "Débat sur la peine de mort : face à l'émotion après le meurtre de Lyhanna, experts et politologues appellent à la prudence avant de relancer un débat clos depuis 1981.",
-      "likes": 4123,
-      "rt": 2456
+      "text": "Canicule : 20 à 30% d'appels supplémentaires au Samu selon la ministre de la Santé. Malaises, surcharges hospitalières : le système sous tension.",
+      "likes": 2156,
+      "rt": 892
     },
     {
       "id": "auto-5",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "centre",
-      "text": "Macron accueille son dernier G7. À dix mois de quitter l'Élysée, il veut consolider son bilan européen face au retour de Donald Trump.",
-      "likes": 2876,
-      "rt": 1345
+      "author": "Le Figaro",
+      "handle": "@Le_Figaro",
+      "topic": "gauche",
+      "text": "LFI mène sa bataille culturelle : fête de la musique, maillots de foot, patrimoine. Mélenchon et ses troupes s'approprient les codes populaires.",
+      "likes": 1834,
+      "rt": 1043
     },
     {
       "id": "auto-6",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "systeme",
-      "text": "IA et souveraineté : Washington restreint l'accès à Anthropic aux étrangers. Une décision qui électrise unanimement tous les prétendants à l'Élysée française.",
-      "likes": 3598,
-      "rt": 2134
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "economie",
+      "text": "Les premiers échelons de la fonction publique arrivent sous le Smic. Les points d'indice sont figés depuis juillet 2023 : une aberration budgétaire.",
+      "likes": 2512,
+      "rt": 1756
     },
     {
       "id": "auto-7",
-      "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "sondages",
-      "text": "RN : Laurent Jacobelli affirme que son parti ne proposera pas la peine de mort mais respecterait un référendum en faveur. Une position prudente en période d'émotion.",
-      "likes": 2145,
-      "rt": 1234
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "municipales",
+      "text": "Les communes ont investi record en 2025, mais ont alourdi leur dette. Vulnérables aux hausses de taux : un risque majeur pour les territoires.",
+      "likes": 1645,
+      "rt": 743
     },
     {
       "id": "auto-8",
-      "author": "Libération",
-      "handle": "@liberation",
-      "topic": "centre",
-      "text": "Corse : le RN pivote vers une autonomie encadrée, abandonnant son jacobinisme historique. Une inflexion stratégique majeure avant 2027.",
-      "likes": 1876,
-      "rt": 892
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "systeme",
+      "text": "Canicule et impréparation : le changement climatique doit devenir central dans la campagne 2027. Une question existentielle pour les politiques publiques.",
+      "likes": 3089,
+      "rt": 2341
     }
   ],
   "mediaTopics": [
     {
-      "label": "Peine de mort et justice",
-      "pct": 18,
-      "color": "#DC2626"
-    },
-    {
-      "label": "G7 et relations internationales",
-      "pct": 17,
-      "color": "#2563EB"
-    },
-    {
-      "label": "Protection de l'enfance",
-      "pct": 14,
-      "color": "#EA580C"
-    },
-    {
-      "label": "Souveraineté numérique et IA",
-      "pct": 13,
-      "color": "#8B5CF6"
-    },
-    {
-      "label": "Questions régionales (Corse, Liban)",
+      "label": "Changement climatique",
       "pct": 16,
       "color": "#059669"
     },
     {
-      "label": "Politiques économiques et commerciales",
-      "pct": 12,
+      "label": "Économie et finances",
+      "pct": 18,
+      "color": "#2563EB"
+    },
+    {
+      "label": "Gouvernance locale",
+      "pct": 14,
       "color": "#7C3AED"
     },
     {
-      "label": "Éthique publique et institutions",
-      "pct": 10,
+      "label": "Fonction publique",
+      "pct": 12,
+      "color": "#DC2626"
+    },
+    {
+      "label": "Gauche et LFI",
+      "pct": 15,
+      "color": "#EA580C"
+    },
+    {
+      "label": "Transparence politique",
+      "pct": 13,
+      "color": "#0891B2"
+    },
+    {
+      "label": "Enjeux internationaux",
+      "pct": 12,
       "color": "#6366F1"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "Peine de mort : faut-il rouvrir le débat après le crime de Lyhanna ?",
-      "summary": "L'émotion suscitée par le meurtre d'une enfant ravive des appels au rétablissement de la peine capitale. Où placer la ligne entre légitime demande de justice et dérive populiste ?"
+      "title": "Dégradation du pouvoir d'achat public",
+      "summary": "La fonction publique subit une érosion silencieuse de ses salaires tandis que le Smic progresse. Comment concilier justice salariale et équilibre budgétaire ?"
     },
     {
       "id": "topic-2",
-      "title": "IA et souveraineté : comment préserver l'indépendance technologique française ?",
-      "summary": "La restriction américaine sur Anthropic aux ressortissants étrangers pose la question de la dépendance technologique. La France doit-elle accélérer ses champions nationaux ?"
+      "title": "État d'impréparation face au climat",
+      "summary": "Canicules à répétition, surcharge des services d'urgence : les villes et l'État sont-ils suffisamment armés pour affronter l'accélération du changement climatique ?"
     },
     {
       "id": "topic-3",
-      "title": "Autonomie corse : quelle solution pour sortir du clivage traditionnel ?",
-      "summary": "Le RN abandonne le jacobinisme pour une autonomie encadrée. Comment concilier décentralisation réelle et unité républicaine sans céder aux revendications identitaires ?"
+      "title": "Transition énergétique et emploi",
+      "summary": "Iberdrola bénéficie d'aides publiques massives mais prépare des licenciements. Les investissements verts protègent-ils vraiment les salariés ?"
     },
     {
       "id": "topic-4",
-      "title": "Commerce international : comment négocier face aux menaces tarifaires ?",
-      "summary": "Trump menace 100% de droits sur le vin français en raison de la taxe numérique. Macron peut-il trouver un équilibre entre protéger l'innovation et préserver les intérêts économiques ?"
+      "title": "Renouvellement démocratique local",
+      "summary": "Les exécutifs municipaux figent. Comment relancer le renouvellement politique au niveau local pour revitaliser la démocratie française ?"
     },
     {
       "id": "topic-5",
-      "title": "Protection de l'enfance : pourquoi les mesures d'urgence restent-elles bloquées ?",
-      "summary": "Trois ans après les propositions de la Ciivise, seules 3 des 17 mesures ont été mises en œuvre. Qu'est-ce qui freine l'action gouvernementale face aux violences sexuelles ?"
+      "title": "Endettement des collectivités",
+      "summary": "Les communes ont investi record mais s'endettent massivement. Risquent-elles la fragilité financière face à une hausse des taux ?"
     },
     {
       "id": "topic-6",
-      "title": "Conflits proches-orientaux : quel rôle pour la France dans le détroit d'Ormuz ?",
-      "summary": "Un accord de paix fragile se dessine. La France doit-elle participer à la stabilisation régionale et à quel coût pour ses relations avec Israël et l'Iran ?"
+      "title": "Appropriation culturelle et politique",
+      "summary": "Quand la gauche s'empare des codes populaires pour séduire les électeurs, où se situe la frontière entre stratégie politique et authenticité ?"
     }
   ]
 }
