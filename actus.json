@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-06-22T13:28:45.938Z",
+  "lastUpdate": "2026-07-13T10:51:56.825Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "systeme",
-      "text": "Marc Bloch entre au Panthéon. Emmanuel Macron préside la cérémonie de panthéonisation de l'auteur de L'Étrange Défaite, sous l'œil attentif de sa famille.",
+      "topic": "economie",
+      "text": "Canicule et incendies : 32 000 hectares brûlés en France, dépassant déjà le bilan de 2025. Les effets du dérèglement climatique s'accélèrent.",
       "likes": 2847,
-      "rt": 1156
+      "rt": 1203
     },
     {
       "id": "auto-2",
       "author": "Mediapart",
       "handle": "@mediapart",
-      "topic": "economie",
-      "text": "Éolien en mer : Iberdrola prépare des licenciements massifs malgré les aides publiques et des profits records. Une contradiction qui interpelle.",
-      "likes": 3421,
-      "rt": 2104
+      "topic": "systeme",
+      "text": "Transparence citoyenne demande la publication des frais parlementaires. L'Assemblée et le Sénat refusent, affirmant un contrôle existant.",
+      "likes": 1956,
+      "rt": 892
     },
     {
       "id": "auto-3",
       "author": "Libération",
       "handle": "@libe",
       "topic": "systeme",
-      "text": "Laurent Wauquiez a envoyé 7000 pages de notes de frais aux journalistes. Le résultat ? Un effet Streisand spectaculaire et une curiosité décuplée.",
-      "likes": 1923,
-      "rt": 1247
+      "text": "Racisme envers les Bleus : débat sur la composition de l'équipe de France et les contradictions politiques face à ces enjeux.",
+      "likes": 3421,
+      "rt": 1547
     },
     {
       "id": "auto-4",
       "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "systeme",
-      "text": "Canicule : 20 à 30% d'appels supplémentaires au Samu selon la ministre de la Santé. Malaises, surcharges hospitalières : le système sous tension.",
-      "likes": 2156,
-      "rt": 892
+      "handle": "@franceinfoplus",
+      "topic": "centre",
+      "text": "Présidentielle 2027 : Dominique de Villepin se dit prêt à participer à la recherche du compromis. Un appel au rassemblement.",
+      "likes": 1634,
+      "rt": 724
     },
     {
       "id": "auto-5",
-      "author": "Le Figaro",
-      "handle": "@Le_Figaro",
+      "author": "Le Monde",
+      "handle": "@lemondefr",
       "topic": "gauche",
-      "text": "LFI mène sa bataille culturelle : fête de la musique, maillots de foot, patrimoine. Mélenchon et ses troupes s'approprient les codes populaires.",
-      "likes": 1834,
-      "rt": 1043
+      "text": "La gauche non mélenchoniste cherche encore son candidat. Le PS retarde sa désignation, à 9 mois de la présidentielle.",
+      "likes": 2103,
+      "rt": 856
     },
     {
       "id": "auto-6",
-      "author": "Libération",
-      "handle": "@libe",
-      "topic": "economie",
-      "text": "Les premiers échelons de la fonction publique arrivent sous le Smic. Les points d'indice sont figés depuis juillet 2023 : une aberration budgétaire.",
-      "likes": 2512,
-      "rt": 1756
+      "author": "Le Figaro",
+      "handle": "@lefigaro",
+      "topic": "centre",
+      "text": "Jordan Bardella : ma responsabilité est de former un gouvernement et conquérir une majorité. Exclusive au Figaro.",
+      "likes": 2678,
+      "rt": 1104
     },
     {
       "id": "auto-7",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "municipales",
-      "text": "Les communes ont investi record en 2025, mais ont alourdi leur dette. Vulnérables aux hausses de taux : un risque majeur pour les territoires.",
-      "likes": 1645,
-      "rt": 743
+      "author": "France Info",
+      "handle": "@franceinfoplus",
+      "topic": "systeme",
+      "text": "Emmanuel Macron accueille 25 dirigeants mondiaux pour soutenir l'Ukraine. Son dernier 14-Juillet en tant que président.",
+      "likes": 1847,
+      "rt": 693
     },
     {
       "id": "auto-8",
-      "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "systeme",
-      "text": "Canicule et impréparation : le changement climatique doit devenir central dans la campagne 2027. Une question existentielle pour les politiques publiques.",
-      "likes": 3089,
-      "rt": 2341
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "economie",
+      "text": "Quartiers populaires et canicule : le système D face aux défaillances d'un habitat dégradé. Grigny et Bondy suffoquent.",
+      "likes": 2412,
+      "rt": 1089
     }
   ],
   "mediaTopics": [
     {
-      "label": "Changement climatique",
-      "pct": 16,
-      "color": "#059669"
-    },
-    {
-      "label": "Économie et finances",
+      "label": "Climat et urgence écologique",
       "pct": 18,
-      "color": "#2563EB"
+      "color": "#10B981"
     },
     {
-      "label": "Gouvernance locale",
+      "label": "Présidentielle 2027",
+      "pct": 22,
+      "color": "#3B82F6"
+    },
+    {
+      "label": "Politique étrangère",
       "pct": 14,
-      "color": "#7C3AED"
+      "color": "#8B5CF6"
     },
     {
-      "label": "Fonction publique",
+      "label": "Transparence démocratique",
       "pct": 12,
-      "color": "#DC2626"
+      "color": "#F59E0B"
     },
     {
-      "label": "Gauche et LFI",
-      "pct": 15,
-      "color": "#EA580C"
+      "label": "Conditions sociales",
+      "pct": 16,
+      "color": "#EF4444"
     },
     {
-      "label": "Transparence politique",
-      "pct": 13,
-      "color": "#0891B2"
-    },
-    {
-      "label": "Enjeux internationaux",
-      "pct": 12,
+      "label": "Stratégie défense",
+      "pct": 11,
       "color": "#6366F1"
+    },
+    {
+      "label": "Politique culturelle",
+      "pct": 7,
+      "color": "#EC4899"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "Dégradation du pouvoir d'achat public",
-      "summary": "La fonction publique subit une érosion silencieuse de ses salaires tandis que le Smic progresse. Comment concilier justice salariale et équilibre budgétaire ?"
+      "title": "Urgence climatique et fractures sociales",
+      "summary": "La crise climatique frappe davantage les quartiers populaires. Comment les politiques peuvent-elles adapter l'habitat et les infrastructures face aux vagues de chaleur intensifiées ?"
     },
     {
       "id": "topic-2",
-      "title": "État d'impréparation face au climat",
-      "summary": "Canicules à répétition, surcharge des services d'urgence : les villes et l'État sont-ils suffisamment armés pour affronter l'accélération du changement climatique ?"
+      "title": "Unité de la gauche en 2027",
+      "summary": "Le PS, les Écologistes et la gauche non mélenchoniste cherchent leur stratégie. L'union progressiste est-elle possible ou souhaitable pour une alternance crédible ?"
     },
     {
       "id": "topic-3",
-      "title": "Transition énergétique et emploi",
-      "summary": "Iberdrola bénéficie d'aides publiques massives mais prépare des licenciements. Les investissements verts protègent-ils vraiment les salariés ?"
+      "title": "Transparence parlementaire et confiance",
+      "summary": "Les frais des élus restent opaques. Faut-il imposer la publication obligatoire des dépenses publiques pour restaurer la confiance démocratique ?"
     },
     {
       "id": "topic-4",
-      "title": "Renouvellement démocratique local",
-      "summary": "Les exécutifs municipaux figent. Comment relancer le renouvellement politique au niveau local pour revitaliser la démocratie française ?"
+      "title": "Représentation et diversité dans l'équipe de France",
+      "summary": "Les attaques racistes envers les joueurs soulèvent des questions sur la composition sociologique du football et la fracture politique française."
     },
     {
       "id": "topic-5",
-      "title": "Endettement des collectivités",
-      "summary": "Les communes ont investi record mais s'endettent massivement. Risquent-elles la fragilité financière face à une hausse des taux ?"
+      "title": "Rôle présidentiel face aux menaces démocratiques",
+      "summary": "Le président allemand appelle à dépasser l'impartialité. En France, quel rôle le chef d'État doit-il jouer face à la montée des extrêmes ?"
     },
     {
       "id": "topic-6",
-      "title": "Appropriation culturelle et politique",
-      "summary": "Quand la gauche s'empare des codes populaires pour séduire les électeurs, où se situe la frontière entre stratégie politique et authenticité ?"
+      "title": "Défense européenne et alliances géopolitiques",
+      "summary": "Avec l'Ukraine et les tensions du Moyen-Orient, comment la France doit-elle redéfinir sa stratégie militaire et ses alliances pour la prochaine décennie ?"
     }
   ]
 }
