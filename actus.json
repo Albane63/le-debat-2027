@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-07-13T10:51:56.825Z",
+  "lastUpdate": "2026-07-27T11:12:17.598Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "economie",
-      "text": "Canicule et incendies : 32 000 hectares brûlés en France, dépassant déjà le bilan de 2025. Les effets du dérèglement climatique s'accélèrent.",
+      "topic": "systeme",
+      "text": "Incendies en Gironde : le gouvernement Lecornu face à des critiques sur l'anticipation des moyens de sécurité civile. Emmanuel Macron préside une nouvelle cellule de crise.",
       "likes": 2847,
       "rt": 1203
     },
     {
       "id": "auto-2",
-      "author": "Mediapart",
-      "handle": "@mediapart",
+      "author": "France Info",
+      "handle": "@franceinfoplus",
       "topic": "systeme",
-      "text": "Transparence citoyenne demande la publication des frais parlementaires. L'Assemblée et le Sénat refusent, affirmant un contrôle existant.",
+      "text": "Les députés PS dénoncent le manque de préparation gouvernementale face aux mégafeux. Un investissement d'urgence dans la sécurité civile est réclamé.",
       "likes": 1956,
-      "rt": 892
+      "rt": 847
     },
     {
       "id": "auto-3",
       "author": "Libération",
       "handle": "@libe",
-      "topic": "systeme",
-      "text": "Racisme envers les Bleus : débat sur la composition de l'équipe de France et les contradictions politiques face à ces enjeux.",
-      "likes": 3421,
-      "rt": 1547
+      "topic": "centre",
+      "text": "Bruno Le Maire aligne les positions d'un candidat sans officialiser sa candidature. Quelle stratégie pour 2027 ?",
+      "likes": 1432,
+      "rt": 623
     },
     {
       "id": "auto-4",
-      "author": "France Info",
-      "handle": "@franceinfoplus",
-      "topic": "centre",
-      "text": "Présidentielle 2027 : Dominique de Villepin se dit prêt à participer à la recherche du compromis. Un appel au rassemblement.",
-      "likes": 1634,
-      "rt": 724
+      "author": "Le Figaro",
+      "handle": "@lefigaro",
+      "topic": "sondages",
+      "text": "Présidentielle 2027 : Laurent Panifous prêt à soutenir deux candidats de deux camps différents. Les jeux de positionnement commencent.",
+      "likes": 2134,
+      "rt": 901
     },
     {
       "id": "auto-5",
       "author": "Le Monde",
       "handle": "@lemondefr",
       "topic": "gauche",
-      "text": "La gauche non mélenchoniste cherche encore son candidat. Le PS retarde sa désignation, à 9 mois de la présidentielle.",
-      "likes": 2103,
-      "rt": 856
+      "text": "La France insoumise mobilise ses militants cet été pour convaincre les abstentionnistes. Jean-Luc Mélenchon prépare 2027 dès maintenant.",
+      "likes": 1678,
+      "rt": 745
     },
     {
       "id": "auto-6",
-      "author": "Le Figaro",
-      "handle": "@lefigaro",
-      "topic": "centre",
-      "text": "Jordan Bardella : ma responsabilité est de former un gouvernement et conquérir une majorité. Exclusive au Figaro.",
-      "likes": 2678,
-      "rt": 1104
-    },
-    {
-      "id": "auto-7",
       "author": "France Info",
       "handle": "@franceinfoplus",
       "topic": "systeme",
-      "text": "Emmanuel Macron accueille 25 dirigeants mondiaux pour soutenir l'Ukraine. Son dernier 14-Juillet en tant que président.",
-      "likes": 1847,
-      "rt": 693
+      "text": "Canadair et financement de la sécurité civile : le gouvernement se défend de manquements face aux critiques sur les feux dévastateurs.",
+      "likes": 2203,
+      "rt": 876
     },
     {
-      "id": "auto-8",
+      "id": "auto-7",
       "author": "Libération",
       "handle": "@libe",
       "topic": "economie",
-      "text": "Quartiers populaires et canicule : le système D face aux défaillances d'un habitat dégradé. Grigny et Bondy suffoquent.",
-      "likes": 2412,
-      "rt": 1089
+      "text": "CentralPay, plateforme française de paiement, mise en cause pour transactions douteuses impliquant cannabis et arnaque en ligne.",
+      "likes": 1547,
+      "rt": 612
+    },
+    {
+      "id": "auto-8",
+      "author": "Le Figaro",
+      "handle": "@lefigaro",
+      "topic": "municipales",
+      "text": "Orange : le maire RN annule un concert-hommage à Queen. Controverse sur les priorités budgétaires et la gestion culturelle locale.",
+      "likes": 1821,
+      "rt": 934
     }
   ],
   "mediaTopics": [
     {
-      "label": "Climat et urgence écologique",
-      "pct": 18,
-      "color": "#10B981"
+      "label": "Incendies et sécurité civile",
+      "pct": 28,
+      "color": "#DC2626"
     },
     {
       "label": "Présidentielle 2027",
       "pct": 22,
-      "color": "#3B82F6"
+      "color": "#2563EB"
     },
     {
-      "label": "Politique étrangère",
-      "pct": 14,
-      "color": "#8B5CF6"
-    },
-    {
-      "label": "Transparence démocratique",
-      "pct": 12,
-      "color": "#F59E0B"
-    },
-    {
-      "label": "Conditions sociales",
+      "label": "Enjeux climatiques",
       "pct": 16,
-      "color": "#EF4444"
+      "color": "#16A34A"
     },
     {
-      "label": "Stratégie défense",
-      "pct": 11,
+      "label": "Politique locale",
+      "pct": 12,
+      "color": "#7C3AED"
+    },
+    {
+      "label": "Affaires et fraude",
+      "pct": 10,
+      "color": "#EA580C"
+    },
+    {
+      "label": "Affaires internationales",
+      "pct": 8,
       "color": "#6366F1"
     },
     {
-      "label": "Politique culturelle",
-      "pct": 7,
-      "color": "#EC4899"
+      "label": "Rituels et symbolique présidentielle",
+      "pct": 4,
+      "color": "#64748B"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "Urgence climatique et fractures sociales",
-      "summary": "La crise climatique frappe davantage les quartiers populaires. Comment les politiques peuvent-elles adapter l'habitat et les infrastructures face aux vagues de chaleur intensifiées ?"
+      "title": "Anticipation face aux mégafeux",
+      "summary": "Le gouvernement a-t-il suffisamment investi dans la prévention et les moyens de lutte contre les incendies aggravés par le changement climatique ?"
     },
     {
       "id": "topic-2",
-      "title": "Unité de la gauche en 2027",
-      "summary": "Le PS, les Écologistes et la gauche non mélenchoniste cherchent leur stratégie. L'union progressiste est-elle possible ou souhaitable pour une alternance crédible ?"
+      "title": "Candidatures cachées pour 2027",
+      "summary": "Comment évaluer la sincérité des positionnements politiques quand des figures clés refusent d'officialiser leur candidature tout en campagnant ?"
     },
     {
       "id": "topic-3",
-      "title": "Transparence parlementaire et confiance",
-      "summary": "Les frais des élus restent opaques. Faut-il imposer la publication obligatoire des dépenses publiques pour restaurer la confiance démocratique ?"
+      "title": "Écologie et élections : priorité réelle ?",
+      "summary": "Les crises climatiques transformeront-elles durablement les programmes électoraux ou resteront-elles secondaires après l'urgence passée ?"
     },
     {
       "id": "topic-4",
-      "title": "Représentation et diversité dans l'équipe de France",
-      "summary": "Les attaques racistes envers les joueurs soulèvent des questions sur la composition sociologique du football et la fracture politique française."
+      "title": "Mobilisation des abstentionnistes",
+      "summary": "Quels outils et messages peuvent reconnecter les citoyens désengagés au processus démocratique en vue de 2027 ?"
     },
     {
       "id": "topic-5",
-      "title": "Rôle présidentiel face aux menaces démocratiques",
-      "summary": "Le président allemand appelle à dépasser l'impartialité. En France, quel rôle le chef d'État doit-il jouer face à la montée des extrêmes ?"
+      "title": "Gestion culturelle et budgets locaux",
+      "summary": "Comment les mairies justifient leurs arbitrages entre développement culturel et contraintes budgétaires affichées ?"
     },
     {
       "id": "topic-6",
-      "title": "Défense européenne et alliances géopolitiques",
-      "summary": "Avec l'Ukraine et les tensions du Moyen-Orient, comment la France doit-elle redéfinir sa stratégie militaire et ses alliances pour la prochaine décennie ?"
+      "title": "Régulation des plateformes de paiement",
+      "summary": "Les entreprises fintech doivent-elles assumer une responsabilité pénale pour les transactions illégales transitant par leurs services ?"
     }
   ]
 }
