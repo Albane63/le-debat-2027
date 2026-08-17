@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-08-03T11:14:36.215Z",
+  "lastUpdate": "2026-08-17T08:33:49.062Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "centre",
-      "text": "Xavier Bertrand trace sa route en dehors des alliances prévisibles. Le président de Nous France teste ses idées jusqu'à la fin de l'année pour s'imposer comme candidat de la droite et du centre.",
-      "likes": 2140,
-      "rt": 680
+      "topic": "economie",
+      "text": "Le coût de la vie étudiante a bondi de 35% depuis 2017. Les étudiants étrangers sont deux fois plus affectés. Comment garantir l'accès à l'enseignement supérieur ?",
+      "likes": 2840,
+      "rt": 1120
     },
     {
       "id": "auto-2",
-      "author": "Libération",
-      "handle": "@liberation",
-      "topic": "centre",
-      "text": "Entre Gabriel Attal et Édouard Philippe, le duel des deux ex-Premiers ministres s'intensifie. Propositions institutionnelles et déclarations migratoires : qui dominera l'extrême centre ?",
-      "likes": 1890,
-      "rt": 520
+      "author": "France Info",
+      "handle": "@franceinfoplus",
+      "topic": "economie",
+      "text": "Retraites : le gouvernement envisage un gel partiel des pensions pour les plus aisés. À 8 mois de 2027, tous les bords politiques mobilisent leurs troupes.",
+      "likes": 3450,
+      "rt": 1890
     },
     {
       "id": "auto-3",
-      "author": "France Info",
-      "handle": "@franceinfo",
+      "author": "Libération",
+      "handle": "@Libe",
       "topic": "systeme",
-      "text": "Après deux suicides d'agents à Matignon et plusieurs tentatives, des enquêtes judiciaires et internes ont été ouvertes. Une situation qui révèle des tensions au cœur du gouvernement.",
-      "likes": 3240,
-      "rt": 950
+      "text": "Conseil constitutionnel : censure de l'interdiction des réseaux sociaux, validation de l'aide à mourir. Les juges concentrent les critiques sur l'étendue de leurs pouvoirs.",
+      "likes": 4120,
+      "rt": 2340
     },
     {
       "id": "auto-4",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "economie",
-      "text": "Matignon renforce le contrôle des achats d'entreprises sensibles par les investisseurs étrangers. Une réponse aux tensions géopolitiques et aux menaces pour la sécurité nationale.",
-      "likes": 1650,
-      "rt": 420
-    },
-    {
-      "id": "auto-5",
       "author": "Le Figaro",
       "handle": "@lefigaro",
       "topic": "gauche",
-      "text": "La bicyclette, symbole de distinction idéologique à gauche. De Taubira à Grégoire, le vélo incarne bien plus qu'un moyen de transport : un marqueur politique.",
-      "likes": 2310,
-      "rt": 780
+      "text": "Rima Hassan : l'ascension fulgurante d'une figure de la gauche radicale. Qui est vraiment la députée européenne LFI qui agite le débat politique ?",
+      "likes": 2650,
+      "rt": 980
+    },
+    {
+      "id": "auto-5",
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "systeme",
+      "text": "Incendies en Gironde : Mediapart révèle que le ministre reconnaît que les discours sur les moyens suffisants relevaient de la 'posture' politique. Enquête.",
+      "likes": 5670,
+      "rt": 3210
     },
     {
       "id": "auto-6",
-      "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "gauche",
-      "text": "Sandrine Josso poursuit son combat contre la soumission chimique six mois après la condamnation de Joël Guerriau. Une mobilisation pour les victimes de l'ombre.",
-      "likes": 2870,
-      "rt": 1120
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "sondages",
+      "text": "Présidentielle 2027 : le référendum devient l'instrument consensuel pour rétablir la légitimité présidentielle. RN, gauche et centre redécouvrent la démocratie directe.",
+      "likes": 3890,
+      "rt": 2120
     },
     {
       "id": "auto-7",
       "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "municipales",
-      "text": "Dans les Bouches-du-Rhône, Renaud Muselier fait face à trois candidatures rivales et des accusations répétées à moins de deux mois des élections sénatoriales.",
-      "likes": 1420,
-      "rt": 380
+      "handle": "@franceinfoplus",
+      "topic": "economie",
+      "text": "Urgence climatique visible mais écologistes à la traîne. Canicules, mégafeux : le paradoxe de l'écologie politique française en débat.",
+      "likes": 2340,
+      "rt": 1450
     },
     {
       "id": "auto-8",
-      "author": "Le Monde",
-      "handle": "@lemonde",
-      "topic": "sondages",
-      "text": "À Colombes, la controverse autour de l'« entrisme islamiste » met en lumière les tensions entre sécurité et inclusion dans les politiques locales.",
-      "likes": 1880,
-      "rt": 510
+      "author": "Libération",
+      "handle": "@Libe",
+      "topic": "gauche",
+      "text": "Régine Komokoli (LFI Rennes) : victime de racisme systématique en ligne et à son domicile. 'Je ne peux pas arrêter, ce serait trop facile pour ceux qui m'attaquent'.",
+      "likes": 4560,
+      "rt": 2890
     }
   ],
   "mediaTopics": [
     {
-      "label": "Campagne 2027",
+      "label": "Crise climatique & incendies",
       "pct": 22,
-      "color": "#2563EB"
+      "color": "#EA580C"
     },
     {
-      "label": "Migration et sécurité",
+      "label": "Retraites et coût de vie",
       "pct": 18,
       "color": "#DC2626"
     },
     {
-      "label": "Écologie politique",
+      "label": "Présidentielle 2027",
+      "pct": 16,
+      "color": "#2563EB"
+    },
+    {
+      "label": "Politiques numériques",
       "pct": 14,
-      "color": "#16A34A"
-    },
-    {
-      "label": "Crises gouvernementales",
-      "pct": 12,
-      "color": "#EA580C"
-    },
-    {
-      "label": "Économie et secteurs sensibles",
-      "pct": 11,
       "color": "#7C3AED"
     },
     {
-      "label": "Environnement et santé",
-      "pct": 13,
-      "color": "#0891B2"
+      "label": "Gauche insoumise",
+      "pct": 12,
+      "color": "#BE185D"
     },
     {
-      "label": "Élections locales",
-      "pct": 10,
-      "color": "#6366F1"
+      "label": "Institutions & justice constitutionnelle",
+      "pct": 11,
+      "color": "#1F2937"
+    },
+    {
+      "label": "Extrême droite & légitimité",
+      "pct": 7,
+      "color": "#7F1D1D"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "Le positionnement du centre face à 2027",
-      "summary": "Xavier Bertrand, Gabriel Attal et Édouard Philippe redessinent-ils les contours du centre ? Quelle alternative aux clivages traditionnels gauche-droite ?"
+      "title": "Gouvernance climatique : écologie politique ou greenwashing ?",
+      "summary": "Alors que l'urgence climatique s'intensifie avec mégafeux et canicules, pourquoi les écologistes parviennent-ils si difficilement à convertir ce consensus en poids politique ? Question d'organisation ou de stratégie électorale ?"
     },
     {
       "id": "topic-2",
-      "title": "Ceuta : débat migratoire ou dérive électorale ?",
-      "summary": "Entre réalité des chiffres et récupération politique, comment distinguer les enjeux migratoires réels des instrumentalisations électorales ?"
+      "title": "Le référendum comme instrument de crise institutionnelle",
+      "summary": "RN, LFI, En Marche : tous promettent le référendum pour 2027. S'agit-il d'une solution aux défis de légitimité ou d'un symptôme de dislocation politique ? Débat sur la démocratie directe en France."
     },
     {
       "id": "topic-3",
-      "title": "Écologisme versus écologie : un débat de fond",
-      "summary": "L'action publique environnementale est-elle freinée par l'écologisme politique ? Comment concilier ambition climatique et acceptabilité sociale ?"
+      "title": "Retraites : jusqu'où le gouvernement osera-t-il aller ?",
+      "summary": "Gel partiel des pensions pour les plus aisés, hausse du coût de vie étudiant de 35% : quels arbitrages entre justice sociale et équilibre budgétaire à 8 mois de la présidentielle ?"
     },
     {
       "id": "topic-4",
-      "title": "Crises sanitaires et bien-être au travail dans l'État",
-      "summary": "Les suicides à Matignon révèlent-ils des dysfonctionnements systémiques ? Quel soutien pour les agents de la fonction publique ?"
+      "title": "Conseil constitutionnel : gardien ou juge politique ?",
+      "summary": "Après avoir censuré la loi sur les réseaux sociaux et validé l'aide à mourir, les sages cristallisent les critiques. Comment concilier impartialité institutionnelle et légitimité démocratique ?"
     },
     {
       "id": "topic-5",
-      "title": "Souveraineté économique et investissements étrangers",
-      "summary": "Le renforcement du contrôle des prises de participation étrangères est-il une protection nécessaire ou un repli protectionniste ?"
+      "title": "Résilience des territoires : Le Porge un an après le mégafeu",
+      "summary": "La fréquentation touristique a chuté de moitié en Gironde. Au-delà de l'aide d'urgence, comment reconstruire une région ravagée et restaurer la confiance envers l'État ?"
     },
     {
       "id": "topic-6",
-      "title": "Parité et violences sexistes : avancées et résistances",
-      "summary": "Après la condamnation de Joël Guerriau, la soumission chimique devient-elle enfin un enjeu public majeur ?"
+      "title": "Montée de la gauche radicale : radicalisation ou enracinement ?",
+      "summary": "Rima Hassan, Régine Komokoli : comment la LFI capte-t-elle l'énergie politique de minorités mobilisées ? Est-ce un renouvellement stratégique ou une fragmentation durable de la gauche ?"
     }
   ]
 }
