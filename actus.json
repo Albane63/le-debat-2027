@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-08-17T08:33:49.062Z",
+  "lastUpdate": "2026-08-24T08:38:19.279Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "economie",
-      "text": "Le coût de la vie étudiante a bondi de 35% depuis 2017. Les étudiants étrangers sont deux fois plus affectés. Comment garantir l'accès à l'enseignement supérieur ?",
-      "likes": 2840,
-      "rt": 1120
+      "topic": "gauche",
+      "text": "Présidentielle 2027 : la bataille des gauches s'intensifie entre Raphaël Glucksmann et Jean-Luc Mélenchon. Deux visions, deux stratégies pour conquérir l'Élysée.",
+      "likes": 2340,
+      "rt": 890
     },
     {
       "id": "auto-2",
-      "author": "France Info",
-      "handle": "@franceinfoplus",
-      "topic": "economie",
-      "text": "Retraites : le gouvernement envisage un gel partiel des pensions pour les plus aisés. À 8 mois de 2027, tous les bords politiques mobilisent leurs troupes.",
-      "likes": 3450,
-      "rt": 1890
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "gauche",
+      "text": "Yannick Jadot rallié à Glucksmann et chargé de l'urgence écologique. Les écologistes choisissent leur camp à gauche.",
+      "likes": 1850,
+      "rt": 645
     },
     {
       "id": "auto-3",
-      "author": "Libération",
-      "handle": "@Libe",
-      "topic": "systeme",
-      "text": "Conseil constitutionnel : censure de l'interdiction des réseaux sociaux, validation de l'aide à mourir. Les juges concentrent les critiques sur l'étendue de leurs pouvoirs.",
-      "likes": 4120,
-      "rt": 2340
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "sondages",
+      "text": "Sondage : 58% des Français jugent le climat comme priorité électorale. L'enjeu écologique structure déjà la campagne 2027.",
+      "likes": 3120,
+      "rt": 1240
     },
     {
       "id": "auto-4",
       "author": "Le Figaro",
       "handle": "@lefigaro",
-      "topic": "gauche",
-      "text": "Rima Hassan : l'ascension fulgurante d'une figure de la gauche radicale. Qui est vraiment la députée européenne LFI qui agite le débat politique ?",
-      "likes": 2650,
-      "rt": 980
+      "topic": "systeme",
+      "text": "Léa Salamé se retire du 20 heures de France 2 suite à l'annonce de candidature de son compagnon Glucksmann. Questions d'éthique journalistique.",
+      "likes": 2670,
+      "rt": 920
     },
     {
       "id": "auto-5",
       "author": "Mediapart",
       "handle": "@mediapart",
-      "topic": "systeme",
-      "text": "Incendies en Gironde : Mediapart révèle que le ministre reconnaît que les discours sur les moyens suffisants relevaient de la 'posture' politique. Enquête.",
-      "likes": 5670,
-      "rt": 3210
+      "topic": "gauche",
+      "text": "Mélenchon cultive l'optimisme aux universités d'été de LFI. La confiance dans une victoire présidentielle s'affiche sans détour.",
+      "likes": 1920,
+      "rt": 710
     },
     {
       "id": "auto-6",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "sondages",
-      "text": "Présidentielle 2027 : le référendum devient l'instrument consensuel pour rétablir la légitimité présidentielle. RN, gauche et centre redécouvrent la démocratie directe.",
-      "likes": 3890,
-      "rt": 2120
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "economie",
+      "text": "Budget 2027 : le gouvernement travaille à reconduire les aides carburants pour les secteurs agricoles, BTP et transport au-delà du 31 août.",
+      "likes": 1450,
+      "rt": 480
     },
     {
       "id": "auto-7",
-      "author": "France Info",
-      "handle": "@franceinfoplus",
-      "topic": "economie",
-      "text": "Urgence climatique visible mais écologistes à la traîne. Canicules, mégafeux : le paradoxe de l'écologie politique française en débat.",
-      "likes": 2340,
-      "rt": 1450
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "systeme",
+      "text": "Bruno Le Maire publie un manifeste « pour une autre France ». L'ancien ministre de l'économie laisse planer le doute sur sa candidature.",
+      "likes": 1680,
+      "rt": 560
     },
     {
       "id": "auto-8",
       "author": "Libération",
-      "handle": "@Libe",
+      "handle": "@libe",
       "topic": "gauche",
-      "text": "Régine Komokoli (LFI Rennes) : victime de racisme systématique en ligne et à son domicile. 'Je ne peux pas arrêter, ce serait trop facile pour ceux qui m'attaquent'.",
-      "likes": 4560,
-      "rt": 2890
+      "text": "Entre Glucksmann et Mélenchon, c'est une bataille d'ambition écologique qui se dessine. Qui portera le projet climatique le plus crédible ?",
+      "likes": 2210,
+      "rt": 840
     }
   ],
   "mediaTopics": [
     {
-      "label": "Crise climatique & incendies",
-      "pct": 22,
-      "color": "#EA580C"
-    },
-    {
-      "label": "Retraites et coût de vie",
-      "pct": 18,
-      "color": "#DC2626"
-    },
-    {
       "label": "Présidentielle 2027",
-      "pct": 16,
+      "pct": 44,
       "color": "#2563EB"
     },
     {
-      "label": "Politiques numériques",
-      "pct": 14,
+      "label": "Bataille des gauches",
+      "pct": 22,
+      "color": "#DC2626"
+    },
+    {
+      "label": "Écologie et climat",
+      "pct": 18,
+      "color": "#059669"
+    },
+    {
+      "label": "Transparence médias",
+      "pct": 8,
       "color": "#7C3AED"
     },
     {
-      "label": "Gauche insoumise",
-      "pct": 12,
-      "color": "#BE185D"
+      "label": "Budget et économie",
+      "pct": 5,
+      "color": "#F59E0B"
     },
     {
-      "label": "Institutions & justice constitutionnelle",
-      "pct": 11,
-      "color": "#1F2937"
+      "label": "Soft power",
+      "pct": 2,
+      "color": "#6B7280"
     },
     {
-      "label": "Extrême droite & légitimité",
-      "pct": 7,
-      "color": "#7F1D1D"
+      "label": "Institutions",
+      "pct": 1,
+      "color": "#9CA3AF"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "Gouvernance climatique : écologie politique ou greenwashing ?",
-      "summary": "Alors que l'urgence climatique s'intensifie avec mégafeux et canicules, pourquoi les écologistes parviennent-ils si difficilement à convertir ce consensus en poids politique ? Question d'organisation ou de stratégie électorale ?"
+      "title": "La gauche peut-elle se rassembler autour d'un candidat unique ?",
+      "summary": "Glucksmann et Mélenchon incarnent deux visions irréconciliables. Comment la gauche peut-elle éviter la fragmentation face à la droite et l'extrême droite ?"
     },
     {
       "id": "topic-2",
-      "title": "Le référendum comme instrument de crise institutionnelle",
-      "summary": "RN, LFI, En Marche : tous promettent le référendum pour 2027. S'agit-il d'une solution aux défis de légitimité ou d'un symptôme de dislocation politique ? Débat sur la démocratie directe en France."
+      "title": "Qui sera le véritable candidat écologiste de la présidentielle ?",
+      "summary": "Avec le ralliement de Jadot à Glucksmann et la stratégie de Mélenchon sur la « conscription écologique », l'écologie devient centrale. Laquelle des deux approches convaincra les électeurs ?"
     },
     {
       "id": "topic-3",
-      "title": "Retraites : jusqu'où le gouvernement osera-t-il aller ?",
-      "summary": "Gel partiel des pensions pour les plus aisés, hausse du coût de vie étudiant de 35% : quels arbitrages entre justice sociale et équilibre budgétaire à 8 mois de la présidentielle ?"
+      "title": "Quelle déontologie pour les journalistes en période électorale ?",
+      "summary": "Le retrait de Léa Salamé pose la question des règles d'impartialité. Faut-il davantage de régulation ou de confiance envers l'éthique professionnelle ?"
     },
     {
       "id": "topic-4",
-      "title": "Conseil constitutionnel : gardien ou juge politique ?",
-      "summary": "Après avoir censuré la loi sur les réseaux sociaux et validé l'aide à mourir, les sages cristallisent les critiques. Comment concilier impartialité institutionnelle et légitimité démocratique ?"
+      "title": "Peut-on parler d'une « deep state » de gauche en France ?",
+      "summary": "Le réseau des « Phrygiens » au sein de l'État soulève des questions sur l'influence politique au sein de l'administration. Quel contrôle démocratique ?"
     },
     {
       "id": "topic-5",
-      "title": "Résilience des territoires : Le Porge un an après le mégafeu",
-      "summary": "La fréquentation touristique a chuté de moitié en Gironde. Au-delà de l'aide d'urgence, comment reconstruire une région ravagée et restaurer la confiance envers l'État ?"
+      "title": "Bruno Le Maire sera-t-il candidat en 2027 ?",
+      "summary": "L'ancien ministre de l'économie réapparaît avec un manifeste. Signal d'une candidature centriste ou simple positionnement dans le débat d'idées ?"
     },
     {
       "id": "topic-6",
-      "title": "Montée de la gauche radicale : radicalisation ou enracinement ?",
-      "summary": "Rima Hassan, Régine Komokoli : comment la LFI capte-t-elle l'énergie politique de minorités mobilisées ? Est-ce un renouvellement stratégique ou une fragmentation durable de la gauche ?"
+      "title": "Comment structurer les aides aux secteurs exposés post-2027 ?",
+      "summary": "Au-delà du 31 août, agriculture, BTP et transports attendent des certitudes. Quel modèle économique pour ces secteurs stratégiques ?"
     }
   ]
 }
