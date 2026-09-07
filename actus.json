@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-08-31T15:43:05.880Z",
+  "lastUpdate": "2026-09-07T13:50:27.829Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "sondages",
-      "text": "Présidentielle 2027 : à 230 jours du scrutin, les candidats de gauche se positionnent. Olivier Faure officialisé, Glucksmann en embuscade. Qui émergera de la primaire socialiste ?",
+      "topic": "economie",
+      "text": "L'aide française à l'Ukraine représente une goutte d'eau dans les finances publiques. Débat : comment équilibrer solidarité internationale et contraintes budgétaires ?",
       "likes": 2847,
-      "rt": 956
+      "rt": 1205
     },
     {
       "id": "auto-2",
-      "author": "Libération",
-      "handle": "@libe",
-      "topic": "gauche",
-      "text": "Natacha Polony lance son mouvement. Après Zemmour et Caron, les vedettes télé se découvrent une vocation politique. Opportunisme ou engagement sincère ?",
-      "likes": 1634,
-      "rt": 512
+      "author": "France Info",
+      "handle": "@franceinfoplus",
+      "topic": "systeme",
+      "text": "L'AfD remporte 44% en Saxe-Anhalt : un séisme politique en Europe. Quelles leçons pour la France à 18 mois de la présidentielle ?",
+      "likes": 5612,
+      "rt": 2943
     },
     {
       "id": "auto-3",
-      "author": "France Info",
-      "handle": "@franceinfo",
+      "author": "Libération",
+      "handle": "@liberation",
       "topic": "systeme",
-      "text": "Voile, laïcité, liberté : le débat du RN sur l'interdiction dans l'espace public divise la majorité. Le gouvernement exprime ses réserves. Où s'arrête la régulation ?",
+      "text": "Violences sexuelles : la proposition de loi intégrale arrive à l'Assemblée. Reconnaissance de l'inceste, juridictions spécialisées... Un tournant pour la protection ?",
       "likes": 3421,
-      "rt": 1203
+      "rt": 1876
     },
     {
       "id": "auto-4",
-      "author": "Le Figaro",
-      "handle": "@lefigaro",
+      "author": "France Info",
+      "handle": "@franceinfoplus",
       "topic": "economie",
-      "text": "Aides carburant reconduites pour 2026-2027. Le gouvernement prolonge les mesures sectorielles face à la flambée des prix. Efficacité ou simple rustine ?",
-      "likes": 1876,
-      "rt": 634
+      "text": "Nouvelle taxe sur l'épargne salariale en vue pour sauver la Sécu. Les patrons crient déjà à la malveillance. Nécessité ou mauvaise gestion ?",
+      "likes": 4156,
+      "rt": 2201
     },
     {
       "id": "auto-5",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "systeme",
-      "text": "Strasbourg censure une illustration «Stop génocide». La municipalité assume son intervention politique. Où est la ligne entre régulation et autocensure ?",
-      "likes": 2156,
-      "rt": 847
-    },
-    {
-      "id": "auto-6",
       "author": "Le Monde",
       "handle": "@lemondefr",
       "topic": "centre",
-      "text": "Valérie Pécresse appelle à l'unité de la droite face au RN. 230 jours avant la présidentielle, LR redoute la fragmentation. La droite peut-elle se rassembler ?",
-      "likes": 2234,
-      "rt": 721
+      "text": "Xavier Bertrand mise sur le rassemblement face à la fragmentation électorale. Peut-il incarner un vrai projet alternatif pour 2027 ?",
+      "likes": 1834,
+      "rt": 612
+    },
+    {
+      "id": "auto-6",
+      "author": "Libération",
+      "handle": "@liberation",
+      "topic": "gauche",
+      "text": "Primaire socialiste : Ségolène Royal obtient ses parrainages et vise à remettre de l'ordre. La gauche peut-elle converger derrière un seul projet ?",
+      "likes": 2765,
+      "rt": 1543
     },
     {
       "id": "auto-7",
-      "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "economie",
-      "text": "Retraites : la désindexation se profile. Sébastien Lecornu laisse entendre que les petites pensions échapperaient au gel. Quel compromis pour 2027 ?",
-      "likes": 3089,
-      "rt": 1145
-    },
-    {
-      "id": "auto-8",
       "author": "Le Monde",
       "handle": "@lemondefr",
       "topic": "gauche",
-      "text": "Violences sexuelles : le gouvernement envisage la loi intégrale. Matignon ouvre le débat à 3 milliards d'euros par an. Combien coûtera vraiment la prévention ?",
-      "likes": 1542,
-      "rt": 489
+      "text": "Fabien Roussel confirme sa candidature au PCF malgré les critiques de LFI. La fragmentation à gauche persiste-t-elle jusqu'au scrutin ?",
+      "likes": 1923,
+      "rt": 847
+    },
+    {
+      "id": "auto-8",
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "systeme",
+      "text": "2 milliards d'euros de cadeaux fiscaux en 2025 : arrangements avec les fraudeurs. Justice fiscale ou nécessité pragmatique ?",
+      "likes": 6234,
+      "rt": 3456
     }
   ],
   "mediaTopics": [
     {
       "label": "Présidentielle 2027",
-      "pct": 22,
-      "color": "#1F2937"
+      "pct": 28,
+      "color": "#2563EB"
     },
     {
-      "label": "Voile et laïcité",
+      "label": "Violences sexuelles",
       "pct": 16,
       "color": "#DC2626"
     },
     {
-      "label": "Retraites",
-      "pct": 14,
+      "label": "Finances publiques",
+      "pct": 18,
       "color": "#F59E0B"
     },
     {
-      "label": "Éducation",
+      "label": "Extrême droite européenne",
+      "pct": 14,
+      "color": "#7C3AED"
+    },
+    {
+      "label": "Fragmentation politique",
       "pct": 12,
-      "color": "#3B82F6"
+      "color": "#06B6D4"
     },
     {
-      "label": "Politique économique",
-      "pct": 11,
+      "label": "Justice et transparence",
+      "pct": 8,
+      "color": "#EC4899"
+    },
+    {
+      "label": "Environnement-Santé",
+      "pct": 4,
       "color": "#10B981"
-    },
-    {
-      "label": "Violences et protection",
-      "pct": 15,
-      "color": "#8B5CF6"
-    },
-    {
-      "label": "Autres enjeux",
-      "pct": 10,
-      "color": "#6B7280"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "L'unité de la droite face au RN",
-      "summary": "Avec 230 jours avant la présidentielle, comment la droite peut-elle se fédérer pour faire face à la montée du Rassemblement national sans renier ses principes ?"
+      "title": "L'AfD et ses conséquences pour la France",
+      "summary": "La victoire de l'extrême droite allemande en Saxe-Anhalt signale-t-elle une vague européenne ? Comment la France peut-elle anticiper ce phénomène ?"
     },
     {
       "id": "topic-2",
-      "title": "Laïcité versus libertés individuelles",
-      "summary": "Le débat sur l'interdiction du voile dans l'espace public interroge les limites constitutionnelles de la régulation : où passe la ligne entre protection de la République et respect des libertés ?"
+      "title": "Solidarité internationale vs. équilibre budgétaire",
+      "summary": "L'aide à l'Ukraine justifie-t-elle des coupes budgétaires ailleurs ? Comment concilier engagement géopolitique et responsabilité fiscale ?"
     },
     {
       "id": "topic-3",
-      "title": "La primaire de gauche : recomposition en cours",
-      "summary": "Olivier Faure, Raphaël Glucksmann et d'autres candidats se positionnent. Quel candidat progressiste émerger de la compétition pour incarner une alternative crédible ?"
+      "title": "La gauche peut-elle se rassembler ?",
+      "summary": "Avec Roussel, Royal et Mélenchon en lice, la fragmentation progresse. Un rassemblement avant 2027 est-il possible ou souhaitable ?"
     },
     {
       "id": "topic-4",
-      "title": "Retraites : le casse-tête budgétaire",
-      "summary": "Désindexation, petites pensions gelées, hausse de l'âge : quel équilibre entre viabilité financière et justice sociale pour le système de 2027 ?"
+      "title": "Loi intégrale contre les violences sexuelles",
+      "summary": "Reconnaissance de l'inceste, juridictions spécialisées... Ce texte répond-il réellement aux attentes des victimes et associations féministes ?"
     },
     {
       "id": "topic-5",
-      "title": "L'attrait croissant des fonctionnaires pour le RN",
-      "summary": "Entre malaise social et rejet de la gestion actuelle, pourquoi certaines catégories professionnelles se tournent-elles vers des formations d'extrême droite ?"
+      "title": "Justice fiscale et arrangements de façade",
+      "summary": "2 milliards d'euros de « cadeaux » aux fraudeurs : comment l'État peut-il justifier ces arrangements quand les petits contribuables payent plein pot ?"
     },
     {
       "id": "topic-6",
-      "title": "Censure culturelle et liberté d'expression",
-      "summary": "Quand les municipalités interviennent sur les contenus culturels, qui juge de l'équilibre entre responsabilité politique et respect de la création artistique ?"
+      "title": "Stratégie électorale : rassemblement ou radicalité ?",
+      "summary": "Bertrand prêche le rassemblement, Mélenchon refuse le débat avec Retailleau. Quel modèle politique sortira vainqueur en 2027 ?"
     }
   ]
 }
