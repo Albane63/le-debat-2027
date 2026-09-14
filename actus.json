@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-09-07T13:50:27.829Z",
+  "lastUpdate": "2026-09-14T14:36:21.915Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "economie",
-      "text": "L'aide française à l'Ukraine représente une goutte d'eau dans les finances publiques. Débat : comment équilibrer solidarité internationale et contraintes budgétaires ?",
+      "topic": "sondages",
+      "text": "Présidentielle 2027 : Marine Le Pen créditée d'au moins un tiers des intentions de vote dans toutes les configurations testées par notre enquête électorale",
       "likes": 2847,
-      "rt": 1205
+      "rt": 1203
     },
     {
       "id": "auto-2",
-      "author": "France Info",
-      "handle": "@franceinfoplus",
-      "topic": "systeme",
-      "text": "L'AfD remporte 44% en Saxe-Anhalt : un séisme politique en Europe. Quelles leçons pour la France à 18 mois de la présidentielle ?",
-      "likes": 5612,
-      "rt": 2943
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "municipales",
+      "text": "Deux victoires de La France insoumise aux municipales près de Lyon pourraient être annulées selon le tribunal administratif de Lyon",
+      "likes": 1956,
+      "rt": 987
     },
     {
       "id": "auto-3",
-      "author": "Libération",
-      "handle": "@liberation",
-      "topic": "systeme",
-      "text": "Violences sexuelles : la proposition de loi intégrale arrive à l'Assemblée. Reconnaissance de l'inceste, juridictions spécialisées... Un tournant pour la protection ?",
-      "likes": 3421,
-      "rt": 1876
-    },
-    {
-      "id": "auto-4",
       "author": "France Info",
       "handle": "@franceinfoplus",
       "topic": "economie",
-      "text": "Nouvelle taxe sur l'épargne salariale en vue pour sauver la Sécu. Les patrons crient déjà à la malveillance. Nécessité ou mauvaise gestion ?",
-      "likes": 4156,
-      "rt": 2201
+      "text": "Gilets jaunes : les appels à manifester refont surface sur les réseaux avec la hausse des prix des carburants à deux mois de 2027",
+      "likes": 3124,
+      "rt": 1847
+    },
+    {
+      "id": "auto-4",
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "systeme",
+      "text": "Macron déposa une nouvelle version de sa loi sur l'interdiction des réseaux sociaux aux moins de 15 ans auprès de l'Union européenne",
+      "likes": 1438,
+      "rt": 743
     },
     {
       "id": "auto-5",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "centre",
-      "text": "Xavier Bertrand mise sur le rassemblement face à la fragmentation électorale. Peut-il incarner un vrai projet alternatif pour 2027 ?",
-      "likes": 1834,
-      "rt": 612
-    },
-    {
-      "id": "auto-6",
-      "author": "Libération",
-      "handle": "@liberation",
-      "topic": "gauche",
-      "text": "Primaire socialiste : Ségolène Royal obtient ses parrainages et vise à remettre de l'ordre. La gauche peut-elle converger derrière un seul projet ?",
-      "likes": 2765,
-      "rt": 1543
-    },
-    {
-      "id": "auto-7",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "gauche",
-      "text": "Fabien Roussel confirme sa candidature au PCF malgré les critiques de LFI. La fragmentation à gauche persiste-t-elle jusqu'au scrutin ?",
-      "likes": 1923,
-      "rt": 847
-    },
-    {
-      "id": "auto-8",
       "author": "Mediapart",
       "handle": "@mediapart",
       "topic": "systeme",
-      "text": "2 milliards d'euros de cadeaux fiscaux en 2025 : arrangements avec les fraudeurs. Justice fiscale ou nécessité pragmatique ?",
-      "likes": 6234,
-      "rt": 3456
+      "text": "Cybersécurité : une nouvelle brèche dans la relation entre les citoyens et l'administration française selon les experts en politique publique",
+      "likes": 2206,
+      "rt": 1124
+    },
+    {
+      "id": "auto-6",
+      "author": "Le Figaro",
+      "handle": "@Le_Figaro",
+      "topic": "economie",
+      "text": "Retraites : le gouvernement envisage une désindexation des pensions pour financer le budget 2027, une piste politiquement explosive",
+      "likes": 4187,
+      "rt": 2341
+    },
+    {
+      "id": "auto-7",
+      "author": "France Info",
+      "handle": "@franceinfoplus",
+      "topic": "centre",
+      "text": "La Finlande rejoint l'initiative française de dissuasion nucléaire avancée, portant à dix le nombre de pays européens impliqués",
+      "likes": 892,
+      "rt": 521
+    },
+    {
+      "id": "auto-8",
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "gauche",
+      "text": "Jean-Louis Borloo plaide pour une équipe d'élus locaux et d'entrepreneurs pour remédier à l'embolie d'un système trop centralisé",
+      "likes": 1673,
+      "rt": 834
     }
   ],
   "mediaTopics": [
     {
       "label": "Présidentielle 2027",
       "pct": 28,
-      "color": "#2563EB"
+      "color": "#1F2937"
     },
     {
-      "label": "Violences sexuelles",
-      "pct": 16,
+      "label": "Enjeux économiques",
+      "pct": 22,
       "color": "#DC2626"
     },
     {
-      "label": "Finances publiques",
+      "label": "Politique locale",
       "pct": 18,
-      "color": "#F59E0B"
+      "color": "#2563EB"
     },
     {
-      "label": "Extrême droite européenne",
+      "label": "Gouvernance/Institutions",
       "pct": 14,
       "color": "#7C3AED"
     },
     {
-      "label": "Fragmentation politique",
-      "pct": 12,
-      "color": "#06B6D4"
+      "label": "Politique européenne",
+      "pct": 10,
+      "color": "#059669"
     },
     {
-      "label": "Justice et transparence",
-      "pct": 8,
-      "color": "#EC4899"
+      "label": "Scandales/Affaires",
+      "pct": 6,
+      "color": "#EA580C"
     },
     {
-      "label": "Environnement-Santé",
-      "pct": 4,
-      "color": "#10B981"
+      "label": "Autres",
+      "pct": 2,
+      "color": "#9CA3AF"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "L'AfD et ses conséquences pour la France",
-      "summary": "La victoire de l'extrême droite allemande en Saxe-Anhalt signale-t-elle une vague européenne ? Comment la France peut-elle anticiper ce phénomène ?"
+      "title": "La légitimité des victoires électorales",
+      "summary": "Deux élections insoumises annulables pour irrégularités : comment garantir la confiance dans le processus électoral sans remettre en cause les résultats ?"
     },
     {
       "id": "topic-2",
-      "title": "Solidarité internationale vs. équilibre budgétaire",
-      "summary": "L'aide à l'Ukraine justifie-t-elle des coupes budgétaires ailleurs ? Comment concilier engagement géopolitique et responsabilité fiscale ?"
+      "title": "Réforme des retraites et effort intergénérationnel",
+      "summary": "Désindexation ou abattement fiscal : la contribution des seniors au redressement budgétaire est-elle équitable ou génératrice de fracture ?"
     },
     {
       "id": "topic-3",
-      "title": "La gauche peut-elle se rassembler ?",
-      "summary": "Avec Roussel, Royal et Mélenchon en lice, la fragmentation progresse. Un rassemblement avant 2027 est-il possible ou souhaitable ?"
+      "title": "Stratégie du RN face aux responsabilités",
+      "summary": "Marine Le Pen laisse entrevoir une non-censure du gouvernement : apaisement politique ou instrumentalisation d'une crise institutionnelle ?"
     },
     {
       "id": "topic-4",
-      "title": "Loi intégrale contre les violences sexuelles",
-      "summary": "Reconnaissance de l'inceste, juridictions spécialisées... Ce texte répond-il réellement aux attentes des victimes et associations féministes ?"
+      "title": "Cohésion ou polarisation dans les alliances",
+      "summary": "Eric Ciotti et Marine Le Pen divergent sur le logement : les coalitions électorales peuvent-elles survivre aux divergences programmatiques ?"
     },
     {
       "id": "topic-5",
-      "title": "Justice fiscale et arrangements de façade",
-      "summary": "2 milliards d'euros de « cadeaux » aux fraudeurs : comment l'État peut-il justifier ces arrangements quand les petits contribuables payent plein pot ?"
+      "title": "Sécurité numérique et confiance citoyenne",
+      "summary": "Cyberattaques contre l'administration : comment restaurer la relation citoyen-État quand la protection des données s'effrite ?"
     },
     {
       "id": "topic-6",
-      "title": "Stratégie électorale : rassemblement ou radicalité ?",
-      "summary": "Bertrand prêche le rassemblement, Mélenchon refuse le débat avec Retailleau. Quel modèle politique sortira vainqueur en 2027 ?"
+      "title": "Pluralisme politique en crise",
+      "summary": "Chaque camp cherche à éliminer ses contradicteurs : peut-on coexister politiquement dans une démocratie de plus en plus polarisée ?"
     }
   ]
 }
