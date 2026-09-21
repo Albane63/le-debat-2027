@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-09-14T14:36:21.915Z",
+  "lastUpdate": "2026-09-21T14:43:35.072Z",
   "tweets": [
     {
       "id": "auto-1",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "sondages",
-      "text": "Présidentielle 2027 : Marine Le Pen créditée d'au moins un tiers des intentions de vote dans toutes les configurations testées par notre enquête électorale",
-      "likes": 2847,
-      "rt": 1203
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "systeme",
+      "text": "Procès Rachida Dati : l'ancienne ministre dément tout conflit d'intérêt. Elle affirme avoir exercé comme avocate pour Renault-Nissan, pas comme lobbyiste.",
+      "likes": 2150,
+      "rt": 680
     },
     {
       "id": "auto-2",
-      "author": "Libération",
-      "handle": "@libe",
-      "topic": "municipales",
-      "text": "Deux victoires de La France insoumise aux municipales près de Lyon pourraient être annulées selon le tribunal administratif de Lyon",
-      "likes": 1956,
-      "rt": 987
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "gauche",
+      "text": "Primaire socialiste : tensions entre Glucksmann et Royal. Trois semaines avant le scrutin, le ton monte entre les deux candidats sur la question de l'expérience.",
+      "likes": 1840,
+      "rt": 520
     },
     {
       "id": "auto-3",
-      "author": "France Info",
-      "handle": "@franceinfoplus",
+      "author": "Libération",
+      "handle": "@liberation",
       "topic": "economie",
-      "text": "Gilets jaunes : les appels à manifester refont surface sur les réseaux avec la hausse des prix des carburants à deux mois de 2027",
-      "likes": 3124,
-      "rt": 1847
+      "text": "Crise du carburant : le gouvernement annonce « de nouvelles aides dans les prochains jours » après un record du gazole à 2,41€. Les élections approchent.",
+      "likes": 3220,
+      "rt": 1140
     },
     {
       "id": "auto-4",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "systeme",
-      "text": "Macron déposa une nouvelle version de sa loi sur l'interdiction des réseaux sociaux aux moins de 15 ans auprès de l'Union européenne",
-      "likes": 1438,
-      "rt": 743
-    },
-    {
-      "id": "auto-5",
       "author": "Mediapart",
       "handle": "@mediapart",
       "topic": "systeme",
-      "text": "Cybersécurité : une nouvelle brèche dans la relation entre les citoyens et l'administration française selon les experts en politique publique",
-      "likes": 2206,
-      "rt": 1124
+      "text": "Carcassonne : six mois de RN au pouvoir. Entre retrait du drapeau européen et pressions sur les oppositions, la mairie devient laboratoire d'extrême droite.",
+      "likes": 2890,
+      "rt": 945
+    },
+    {
+      "id": "auto-5",
+      "author": "Le Figaro",
+      "handle": "@lefigaro",
+      "topic": "systeme",
+      "text": "Affaire Charles Sapin : LFI célèbre l'éviction du journaliste de France Inter. Débat sur le pluralisme dans l'audiovisuel public à sept mois de la présidentielle.",
+      "likes": 4120,
+      "rt": 1620
     },
     {
       "id": "auto-6",
-      "author": "Le Figaro",
-      "handle": "@Le_Figaro",
-      "topic": "economie",
-      "text": "Retraites : le gouvernement envisage une désindexation des pensions pour financer le budget 2027, une piste politiquement explosive",
-      "likes": 4187,
-      "rt": 2341
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "systeme",
+      "text": "Menace de guerre hybride russe « réelle et documentée » selon le ministre de l'Intérieur. La France a subi des attaques cyber, mais aucun sabotage majeur détecté.",
+      "likes": 1950,
+      "rt": 420
     },
     {
       "id": "auto-7",
-      "author": "France Info",
-      "handle": "@franceinfoplus",
-      "topic": "centre",
-      "text": "La Finlande rejoint l'initiative française de dissuasion nucléaire avancée, portant à dix le nombre de pays européens impliqués",
-      "likes": 892,
-      "rt": 521
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "gauche",
+      "text": "Les Écologistes voteront en décembre pour décider de leur stratégie 2027. La direction négocie déjà avec les autres forces de gauche sur un projet partagé.",
+      "likes": 1570,
+      "rt": 380
     },
     {
       "id": "auto-8",
-      "author": "Libération",
-      "handle": "@libe",
-      "topic": "gauche",
-      "text": "Jean-Louis Borloo plaide pour une équipe d'élus locaux et d'entrepreneurs pour remédier à l'embolie d'un système trop centralisé",
-      "likes": 1673,
-      "rt": 834
+      "author": "Le Figaro",
+      "handle": "@lefigaro",
+      "topic": "centre",
+      "text": "LR se prépare aux législatives 2027 : stratégie circo par circo pour reconquérir des sièges face au RN et à Horizons. Bruno Retailleau lance le chantier.",
+      "likes": 1280,
+      "rt": 340
     }
   ],
   "mediaTopics": [
     {
       "label": "Présidentielle 2027",
-      "pct": 28,
-      "color": "#1F2937"
+      "pct": 22,
+      "color": "#0EA5E9"
     },
     {
-      "label": "Enjeux économiques",
-      "pct": 22,
+      "label": "Primaire de gauche",
+      "pct": 18,
+      "color": "#EF4444"
+    },
+    {
+      "label": "Crise économique",
+      "pct": 16,
+      "color": "#F59E0B"
+    },
+    {
+      "label": "Politique municipale",
+      "pct": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "label": "Sécurité & géopolitique",
+      "pct": 15,
       "color": "#DC2626"
     },
     {
-      "label": "Politique locale",
-      "pct": 18,
-      "color": "#2563EB"
+      "label": "Audiovisuel public",
+      "pct": 8,
+      "color": "#6366F1"
     },
     {
-      "label": "Gouvernance/Institutions",
-      "pct": 14,
-      "color": "#7C3AED"
-    },
-    {
-      "label": "Politique européenne",
-      "pct": 10,
-      "color": "#059669"
-    },
-    {
-      "label": "Scandales/Affaires",
-      "pct": 6,
-      "color": "#EA580C"
-    },
-    {
-      "label": "Autres",
-      "pct": 2,
-      "color": "#9CA3AF"
+      "label": "Affaires judiciaires",
+      "pct": 7,
+      "color": "#64748B"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "La légitimité des victoires électorales",
-      "summary": "Deux élections insoumises annulables pour irrégularités : comment garantir la confiance dans le processus électoral sans remettre en cause les résultats ?"
+      "title": "La présidentielle en contexte de crise géopolitique",
+      "summary": "Avec la guerre en Ukraine, le conflit moyen-oriental et les menaces russes documentées, comment la sécurité façonnera-t-elle les enjeux de la campagne 2027 ?"
     },
     {
       "id": "topic-2",
-      "title": "Réforme des retraites et effort intergénérationnel",
-      "summary": "Désindexation ou abattement fiscal : la contribution des seniors au redressement budgétaire est-elle équitable ou génératrice de fracture ?"
+      "title": "L'unité de la gauche : utopie ou nécessité ?",
+      "summary": "Les Écologistes négocient un projet partagé tandis que la primaire socialiste s'intensifie. Peut-on imaginer une vraie coalition avant 2027 ?"
     },
     {
       "id": "topic-3",
-      "title": "Stratégie du RN face aux responsabilités",
-      "summary": "Marine Le Pen laisse entrevoir une non-censure du gouvernement : apaisement politique ou instrumentalisation d'une crise institutionnelle ?"
+      "title": "Le prix du carburant, baromètre politique",
+      "summary": "Les aides gouvernementales dépendent-elles réellement des calendriers électoraux ? Qui paiera le prix de ces choix économiques ?"
     },
     {
       "id": "topic-4",
-      "title": "Cohésion ou polarisation dans les alliances",
-      "summary": "Eric Ciotti et Marine Le Pen divergent sur le logement : les coalitions électorales peuvent-elles survivre aux divergences programmatiques ?"
+      "title": "Pluralisme médiatique et démocratie",
+      "summary": "L'éviction de Charles Sapin de France Inter relance le débat : qui contrôle vraiment la parole publique dans l'audiovisuel français ?"
     },
     {
       "id": "topic-5",
-      "title": "Sécurité numérique et confiance citoyenne",
-      "summary": "Cyberattaques contre l'administration : comment restaurer la relation citoyen-État quand la protection des données s'effrite ?"
+      "title": "L'extrême droite à l'épreuve du pouvoir local",
+      "summary": "À Carcassonne, le RN expérimente son agenda politique. Que révèlent six mois de gouvernance RN sur les intentions nationales ?"
     },
     {
       "id": "topic-6",
-      "title": "Pluralisme politique en crise",
-      "summary": "Chaque camp cherche à éliminer ses contradicteurs : peut-on coexister politiquement dans une démocratie de plus en plus polarisée ?"
+      "title": "Légitimité et conflits d'intérêt en politique",
+      "summary": "Le procès Dati questionne la transparence des élites : comment distinguer l'activité professionnelle du lobbying politique ?"
     }
   ]
 }
