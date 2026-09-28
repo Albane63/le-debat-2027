@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-09-21T14:43:35.072Z",
+  "lastUpdate": "2026-09-28T16:18:27.299Z",
   "tweets": [
     {
       "id": "auto-1",
-      "author": "France Info",
-      "handle": "@franceinfo",
+      "author": "Le Monde",
+      "handle": "@lemondefr",
       "topic": "systeme",
-      "text": "Procès Rachida Dati : l'ancienne ministre dément tout conflit d'intérêt. Elle affirme avoir exercé comme avocate pour Renault-Nissan, pas comme lobbyiste.",
-      "likes": 2150,
-      "rt": 680
+      "text": "Antisémitisme : le CRIF dénonce des propos attribués à Jordan Bardella datant de 2013, relançant le débat sur la dédiabolisation du RN.",
+      "likes": 2847,
+      "rt": 1203
     },
     {
       "id": "auto-2",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "gauche",
-      "text": "Primaire socialiste : tensions entre Glucksmann et Royal. Trois semaines avant le scrutin, le ton monte entre les deux candidats sur la question de l'expérience.",
-      "likes": 1840,
-      "rt": 520
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "economie",
+      "text": "Budget 2027 : le gouvernement augmente les taxes sur les concessions autoroutières et aéroportuaires, rapportant 1,4 milliard annuels à l'État.",
+      "likes": 1456,
+      "rt": 589
     },
     {
       "id": "auto-3",
-      "author": "Libération",
-      "handle": "@liberation",
-      "topic": "economie",
-      "text": "Crise du carburant : le gouvernement annonce « de nouvelles aides dans les prochains jours » après un record du gazole à 2,41€. Les élections approchent.",
-      "likes": 3220,
-      "rt": 1140
-    },
-    {
-      "id": "auto-4",
       "author": "Mediapart",
       "handle": "@mediapart",
       "topic": "systeme",
-      "text": "Carcassonne : six mois de RN au pouvoir. Entre retrait du drapeau européen et pressions sur les oppositions, la mairie devient laboratoire d'extrême droite.",
-      "likes": 2890,
-      "rt": 945
+      "text": "Le parquet réclame 4 ans de prison contre Rachida Dati pour corruption et trafic d'influence au Parlement européen entre 2009 et 2013.",
+      "likes": 3124,
+      "rt": 1847
+    },
+    {
+      "id": "auto-4",
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "systeme",
+      "text": "Sénatoriales : le RN constitue pour la première fois un groupe au Sénat avec 15 élus, marquant une nouvelle étape de sa notabilisation politique.",
+      "likes": 2609,
+      "rt": 1421
     },
     {
       "id": "auto-5",
-      "author": "Le Figaro",
-      "handle": "@lefigaro",
-      "topic": "systeme",
-      "text": "Affaire Charles Sapin : LFI célèbre l'éviction du journaliste de France Inter. Débat sur le pluralisme dans l'audiovisuel public à sept mois de la présidentielle.",
-      "likes": 4120,
-      "rt": 1620
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "economie",
+      "text": "Productivité française : au-delà du budget, c'est une réforme structurelle de l'économie que le débat politique doit envisager.",
+      "likes": 1738,
+      "rt": 612
     },
     {
       "id": "auto-6",
       "author": "France Info",
       "handle": "@franceinfo",
-      "topic": "systeme",
-      "text": "Menace de guerre hybride russe « réelle et documentée » selon le ministre de l'Intérieur. La France a subi des attaques cyber, mais aucun sabotage majeur détecté.",
-      "likes": 1950,
-      "rt": 420
+      "topic": "gauche",
+      "text": "Blocages de lycées : mobilisation croissante contre le manque de moyens et les absences de professeurs, notamment en Île-de-France.",
+      "likes": 2015,
+      "rt": 934
     },
     {
       "id": "auto-7",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "gauche",
-      "text": "Les Écologistes voteront en décembre pour décider de leur stratégie 2027. La direction négocie déjà avec les autres forces de gauche sur un projet partagé.",
-      "likes": 1570,
-      "rt": 380
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "economie",
+      "text": "Pompiers en grève depuis trois semaines : révélation d'un manque criant de moyens après un été dévastateur de feux de forêt.",
+      "likes": 3356,
+      "rt": 2104
     },
     {
       "id": "auto-8",
-      "author": "Le Figaro",
-      "handle": "@lefigaro",
-      "topic": "centre",
-      "text": "LR se prépare aux législatives 2027 : stratégie circo par circo pour reconquérir des sièges face au RN et à Horizons. Bruno Retailleau lance le chantier.",
-      "likes": 1280,
-      "rt": 340
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "gauche",
+      "text": "Fonction publique : une première journée de grève mardi pour contester le gel du point d'indice pour la troisième année consécutive.",
+      "likes": 1892,
+      "rt": 743
     }
   ],
   "mediaTopics": [
     {
-      "label": "Présidentielle 2027",
+      "label": "Crises institutionnelles",
+      "pct": 28,
+      "color": "#7C3AED"
+    },
+    {
+      "label": "Progression du RN",
       "pct": 22,
-      "color": "#0EA5E9"
-    },
-    {
-      "label": "Primaire de gauche",
-      "pct": 18,
-      "color": "#EF4444"
-    },
-    {
-      "label": "Crise économique",
-      "pct": 16,
-      "color": "#F59E0B"
-    },
-    {
-      "label": "Politique municipale",
-      "pct": 14,
-      "color": "#8B5CF6"
-    },
-    {
-      "label": "Sécurité & géopolitique",
-      "pct": 15,
       "color": "#DC2626"
     },
     {
-      "label": "Audiovisuel public",
-      "pct": 8,
+      "label": "Budget et finances",
+      "pct": 18,
+      "color": "#059669"
+    },
+    {
+      "label": "Conflits sociaux",
+      "pct": 16,
+      "color": "#D97706"
+    },
+    {
+      "label": "Gouvernance locale",
+      "pct": 10,
+      "color": "#0891B2"
+    },
+    {
+      "label": "Justice et magistrature",
+      "pct": 4,
       "color": "#6366F1"
     },
     {
-      "label": "Affaires judiciaires",
-      "pct": 7,
-      "color": "#64748B"
+      "label": "Autres",
+      "pct": 2,
+      "color": "#6B7280"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "La présidentielle en contexte de crise géopolitique",
-      "summary": "Avec la guerre en Ukraine, le conflit moyen-oriental et les menaces russes documentées, comment la sécurité façonnera-t-elle les enjeux de la campagne 2027 ?"
+      "title": "Dédiabolisation du RN et contrôle interne",
+      "summary": "Les révélations sur les propos tenus par Bardella remettent-elles en question la stratégie de normalisation du RN, ou relèvent-elles d'une chasse aux sources d'archives personnelles ?"
     },
     {
       "id": "topic-2",
-      "title": "L'unité de la gauche : utopie ou nécessité ?",
-      "summary": "Les Écologistes négocient un projet partagé tandis que la primaire socialiste s'intensifie. Peut-on imaginer une vraie coalition avant 2027 ?"
+      "title": "Représentation du RN au Sénat",
+      "summary": "La constitution d'un groupe RN au Sénat change-t-elle la dynamique parlementaire et force-t-elle les partis traditionnels à repenser le cordon sanitaire ?"
     },
     {
       "id": "topic-3",
-      "title": "Le prix du carburant, baromètre politique",
-      "summary": "Les aides gouvernementales dépendent-elles réellement des calendriers électoraux ? Qui paiera le prix de ces choix économiques ?"
+      "title": "Corruption politique et responsabilité ministérielle",
+      "summary": "Le procès Dati pose la question de l'accountability des élus au niveau européen et de la proportionnalité des sanctions pénales."
     },
     {
       "id": "topic-4",
-      "title": "Pluralisme médiatique et démocratie",
-      "summary": "L'éviction de Charles Sapin de France Inter relance le débat : qui contrôle vraiment la parole publique dans l'audiovisuel français ?"
+      "title": "Austérité budgétaire vs demandes sociales",
+      "summary": "Comment concilier la réduction de la dette publique avec les revendications croissantes des secteurs public et parapublic ?"
     },
     {
       "id": "topic-5",
-      "title": "L'extrême droite à l'épreuve du pouvoir local",
-      "summary": "À Carcassonne, le RN expérimente son agenda politique. Que révèlent six mois de gouvernance RN sur les intentions nationales ?"
+      "title": "Coalition gouvernementale implicite sur le budget",
+      "summary": "Le gouvernement négocie-t-il réellement avec le RN sur le budget, ou les socialistes craignent-ils sans fondement une alliance de facto ?"
     },
     {
       "id": "topic-6",
-      "title": "Légitimité et conflits d'intérêt en politique",
-      "summary": "Le procès Dati questionne la transparence des élites : comment distinguer l'activité professionnelle du lobbying politique ?"
+      "title": "Mobilisation lycéenne et crise éducative",
+      "summary": "Les blocages reflètent-ils une crise structurelle des moyens dans l'Éducation nationale ou une contestation politique plus large ?"
     }
   ]
 }
