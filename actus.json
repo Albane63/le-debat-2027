@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-09-28T16:18:27.299Z",
+  "lastUpdate": "2026-10-12T17:11:09.930Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "systeme",
-      "text": "Antisémitisme : le CRIF dénonce des propos attribués à Jordan Bardella datant de 2013, relançant le débat sur la dédiabolisation du RN.",
-      "likes": 2847,
-      "rt": 1203
+      "topic": "gauche",
+      "text": "Raphaël Glucksmann remporte la primaire socialiste dès le premier tour. Un résultat qui remodèle les équilibres à gauche et au centre avant 2027.",
+      "likes": 2840,
+      "rt": 1156
     },
     {
       "id": "auto-2",
-      "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "economie",
-      "text": "Budget 2027 : le gouvernement augmente les taxes sur les concessions autoroutières et aéroportuaires, rapportant 1,4 milliard annuels à l'État.",
-      "likes": 1456,
-      "rt": 589
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "municipales",
+      "text": "Saint-Fons, Vaulx-en-Velin, Vénissieux : trois annulations d'élections remportées par LFI en Rhône pour des irrégularités sur listes concurrentes.",
+      "likes": 3124,
+      "rt": 1872
     },
     {
       "id": "auto-3",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "systeme",
-      "text": "Le parquet réclame 4 ans de prison contre Rachida Dati pour corruption et trafic d'influence au Parlement européen entre 2009 et 2013.",
-      "likes": 3124,
-      "rt": 1847
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "economie",
+      "text": "Budget 2027 : Retailleau (LR) prône 197 milliards d'économies en cinq ans, réductions sociales et restrictives. Le débat économique s'intensifie.",
+      "likes": 1945,
+      "rt": 1203
     },
     {
       "id": "auto-4",
-      "author": "Libération",
-      "handle": "@libe",
+      "author": "France Info",
+      "handle": "@franceinfo",
       "topic": "systeme",
-      "text": "Sénatoriales : le RN constitue pour la première fois un groupe au Sénat avec 15 élus, marquant une nouvelle étape de sa notabilisation politique.",
-      "likes": 2609,
-      "rt": 1421
+      "text": "Olivier Mannoni analyse les attaques contre le monde culturel : stratégies et enjeux d'une bataille idéologique qui traverse la campagne 2027.",
+      "likes": 2156,
+      "rt": 891
     },
     {
       "id": "auto-5",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "economie",
-      "text": "Productivité française : au-delà du budget, c'est une réforme structurelle de l'économie que le débat politique doit envisager.",
-      "likes": 1738,
-      "rt": 612
-    },
-    {
-      "id": "auto-6",
-      "author": "France Info",
-      "handle": "@franceinfo",
-      "topic": "gauche",
-      "text": "Blocages de lycées : mobilisation croissante contre le manque de moyens et les absences de professeurs, notamment en Île-de-France.",
-      "likes": 2015,
-      "rt": 934
-    },
-    {
-      "id": "auto-7",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "economie",
-      "text": "Pompiers en grève depuis trois semaines : révélation d'un manque criant de moyens après un été dévastateur de feux de forêt.",
-      "likes": 3356,
+      "topic": "systeme",
+      "text": "Antisémitisme persistant au RN : malgré la « dédiabolisation » de Marine Le Pen, les héritage négationniste continue de circuler en interne.",
+      "likes": 4238,
       "rt": 2104
     },
     {
-      "id": "auto-8",
+      "id": "auto-6",
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "gauche",
+      "text": "Les lycéens maintiennent leur mobilisation jusqu'aux vacances : une pression durable face aux politiques éducatives. Le mouvement s'organise.",
+      "likes": 1834,
+      "rt": 1456
+    },
+    {
+      "id": "auto-7",
       "author": "Libération",
       "handle": "@libe",
-      "topic": "gauche",
-      "text": "Fonction publique : une première journée de grève mardi pour contester le gel du point d'indice pour la troisième année consécutive.",
-      "likes": 1892,
-      "rt": 743
+      "topic": "systeme",
+      "text": "Constitution selon Marine Le Pen : le projet RN annonce une autocratie électorale sans contre-pouvoirs, affirme le professeur Dominique Rousseau.",
+      "likes": 3567,
+      "rt": 2341
+    },
+    {
+      "id": "auto-8",
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "sondages",
+      "text": "30 candidats déclarés ou pressentis pour 2027 : le paysage politique reste fragmenté, les trajectoires vers l'Élysée encore très incertaines.",
+      "likes": 2091,
+      "rt": 1248
     }
   ],
   "mediaTopics": [
     {
-      "label": "Crises institutionnelles",
+      "label": "Campagne présidentielle 2027",
       "pct": 28,
-      "color": "#7C3AED"
+      "color": "#1F2937"
     },
     {
-      "label": "Progression du RN",
-      "pct": 22,
+      "label": "Extrême droite",
+      "pct": 19,
       "color": "#DC2626"
     },
     {
-      "label": "Budget et finances",
+      "label": "Gauche et social-démocratie",
       "pct": 18,
-      "color": "#059669"
+      "color": "#EF4444"
     },
     {
-      "label": "Conflits sociaux",
-      "pct": 16,
-      "color": "#D97706"
+      "label": "Budget et économie",
+      "pct": 14,
+      "color": "#F59E0B"
     },
     {
-      "label": "Gouvernance locale",
-      "pct": 10,
-      "color": "#0891B2"
-    },
-    {
-      "label": "Justice et magistrature",
-      "pct": 4,
+      "label": "Élections locales",
+      "pct": 12,
       "color": "#6366F1"
     },
     {
-      "label": "Autres",
-      "pct": 2,
-      "color": "#6B7280"
+      "label": "Mouvements sociaux et jeunesse",
+      "pct": 6,
+      "color": "#10B981"
+    },
+    {
+      "label": "Enjeux institutionnels",
+      "pct": 3,
+      "color": "#8B5CF6"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "Dédiabolisation du RN et contrôle interne",
-      "summary": "Les révélations sur les propos tenus par Bardella remettent-elles en question la stratégie de normalisation du RN, ou relèvent-elles d'une chasse aux sources d'archives personnelles ?"
+      "title": "La viabilité économique du modèle français",
+      "summary": "Entre appels au « patriotisme fiscal » et annonces de réductions drastiques, comment concilier ambitions sociales et équilibre budgétaire en 2027 ?"
     },
     {
       "id": "topic-2",
-      "title": "Représentation du RN au Sénat",
-      "summary": "La constitution d'un groupe RN au Sénat change-t-elle la dynamique parlementaire et force-t-elle les partis traditionnels à repenser le cordon sanitaire ?"
+      "title": "L'extrême droite peut-elle se « dédiaboliser » ?",
+      "summary": "Le RN affiche une façade modernisée, mais ses héritages antisémite et autoritaire demeurent. Jusqu'où peut aller cette transformation ?"
     },
     {
       "id": "topic-3",
-      "title": "Corruption politique et responsabilité ministérielle",
-      "summary": "Le procès Dati pose la question de l'accountability des élus au niveau européen et de la proportionnalité des sanctions pénales."
+      "title": "La gauche peut-elle se refonder autour de Glucksmann ?",
+      "summary": "Après sa victoire primaire, le candidat social-démocrate peut-il réconcilier réformisme et mobilisations citoyennes avant le scrutin ?"
     },
     {
       "id": "topic-4",
-      "title": "Austérité budgétaire vs demandes sociales",
-      "summary": "Comment concilier la réduction de la dette publique avec les revendications croissantes des secteurs public et parapublic ?"
+      "title": "Éducation : inégalités régionales et mobilisation lycéenne",
+      "summary": "Baisse des dotations dans certains lycées défavorisés : comment articuler besoins locaux et revendications nationales de la jeunesse ?"
     },
     {
       "id": "topic-5",
-      "title": "Coalition gouvernementale implicite sur le budget",
-      "summary": "Le gouvernement négocie-t-il réellement avec le RN sur le budget, ou les socialistes craignent-ils sans fondement une alliance de facto ?"
+      "title": "La démocratie locale face aux contentieux électoraux",
+      "summary": "Trois annulations d'élections municipales en Rhône soulèvent des questions : quels contrôles, quelles garanties pour la légitimité électorale ?"
     },
     {
       "id": "topic-6",
-      "title": "Mobilisation lycéenne et crise éducative",
-      "summary": "Les blocages reflètent-ils une crise structurelle des moyens dans l'Éducation nationale ou une contestation politique plus large ?"
+      "title": "Culture et espace public : quelle vision pour demain ?",
+      "summary": "Au-delà des critiques d'une « pensée piétinée », comment imaginer un projet culturel fédérateur face aux polarisations actuelles ?"
     }
   ]
 }
