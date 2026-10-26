@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-10-12T17:11:09.930Z",
+  "lastUpdate": "2026-10-26T14:42:49.494Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "gauche",
-      "text": "Raphaël Glucksmann remporte la primaire socialiste dès le premier tour. Un résultat qui remodèle les équilibres à gauche et au centre avant 2027.",
-      "likes": 2840,
-      "rt": 1156
-    },
-    {
-      "id": "auto-2",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "municipales",
-      "text": "Saint-Fons, Vaulx-en-Velin, Vénissieux : trois annulations d'élections remportées par LFI en Rhône pour des irrégularités sur listes concurrentes.",
-      "likes": 3124,
-      "rt": 1872
-    },
-    {
-      "id": "auto-3",
-      "author": "Libération",
-      "handle": "@libe",
-      "topic": "economie",
-      "text": "Budget 2027 : Retailleau (LR) prône 197 milliards d'économies en cinq ans, réductions sociales et restrictives. Le débat économique s'intensifie.",
-      "likes": 1945,
+      "topic": "systeme",
+      "text": "Macron à Marseille : « Ce n'est pas normal qu'à six mois d'une élection présidentielle, le pays soit dans cet état d'ébullition ». Le président reconnaît les insuffisances du déploiement policier du 17 octobre.",
+      "likes": 2847,
       "rt": 1203
     },
     {
-      "id": "auto-4",
+      "id": "auto-2",
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "gauche",
+      "text": "Après les divisions de la primaire, les députés socialistes font bloc contre le budget du gouvernement. Raphaël Glucksmann réunit les élus roses ce mardi.",
+      "likes": 1654,
+      "rt": 892
+    },
+    {
+      "id": "auto-3",
       "author": "France Info",
-      "handle": "@franceinfo",
+      "handle": "@franceinfoplus",
+      "topic": "economie",
+      "text": "Hausse des taux d'intérêt français : sans accalmie sur les marchés, la France pourrait nécessiter une aide rapide de la BCE pour éviter une crise financière.",
+      "likes": 3125,
+      "rt": 1847
+    },
+    {
+      "id": "auto-4",
+      "author": "Mediapart",
+      "handle": "@mediapart",
       "topic": "systeme",
-      "text": "Olivier Mannoni analyse les attaques contre le monde culturel : stratégies et enjeux d'une bataille idéologique qui traverse la campagne 2027.",
-      "likes": 2156,
-      "rt": 891
+      "text": "L'extrême droite a provoqué les manifestants du 24 octobre sous le regard de policiers passifs. Les maires interrogent cette inaction dans plus d'une dizaine de villes.",
+      "likes": 4203,
+      "rt": 2156
     },
     {
       "id": "auto-5",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "systeme",
-      "text": "Antisémitisme persistant au RN : malgré la « dédiabolisation » de Marine Le Pen, les héritage négationniste continue de circuler en interne.",
-      "likes": 4238,
-      "rt": 2104
+      "topic": "sondages",
+      "text": "Au Brésil, Lula remporte un quatrième mandat face à Bolsonaro avec 51,8 % des voix. La gauche française voit un « message d'espoir » à six mois de la présidentielle.",
+      "likes": 5412,
+      "rt": 3078
     },
     {
       "id": "auto-6",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "gauche",
-      "text": "Les lycéens maintiennent leur mobilisation jusqu'aux vacances : une pression durable face aux politiques éducatives. Le mouvement s'organise.",
-      "likes": 1834,
-      "rt": 1456
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "centre",
+      "text": "À l'Assemblée nationale, une poignée de députés libéraux tentent de réduire les impôts et la dépense publique lors de l'examen budgétaire. Sans succès pour le moment.",
+      "likes": 1247,
+      "rt": 634
     },
     {
       "id": "auto-7",
-      "author": "Libération",
-      "handle": "@libe",
+      "author": "France Info",
+      "handle": "@franceinfoplus",
       "topic": "systeme",
-      "text": "Constitution selon Marine Le Pen : le projet RN annonce une autocratie électorale sans contre-pouvoirs, affirme le professeur Dominique Rousseau.",
-      "likes": 3567,
-      "rt": 2341
+      "text": "Piratage : un hackeur revendique le vol de données à La France insoumise, au PCF et à Renaissance. Plus de 1,2 million de données seraient compromises.",
+      "likes": 6847,
+      "rt": 4123
     },
     {
       "id": "auto-8",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "sondages",
-      "text": "30 candidats déclarés ou pressentis pour 2027 : le paysage politique reste fragmenté, les trajectoires vers l'Élysée encore très incertaines.",
-      "likes": 2091,
-      "rt": 1248
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "gauche",
+      "text": "En Serbie, la Liste étudiante chasse l'autocrate Vučić du pouvoir après deux ans de mobilisation citoyenne. Une victoire contre l'autoritarisme dans les Balkans.",
+      "likes": 3956,
+      "rt": 2341
     }
   ],
   "mediaTopics": [
     {
-      "label": "Campagne présidentielle 2027",
-      "pct": 28,
-      "color": "#1F2937"
+      "label": "Stabilité politique",
+      "pct": 22,
+      "color": "#7C3AED"
     },
     {
-      "label": "Extrême droite",
-      "pct": 19,
+      "label": "Violence et sécurité",
+      "pct": 18,
       "color": "#DC2626"
     },
     {
-      "label": "Gauche et social-démocratie",
-      "pct": 18,
+      "label": "Budget et finances",
+      "pct": 17,
+      "color": "#2563EB"
+    },
+    {
+      "label": "Présidentielle 2027",
+      "pct": 16,
       "color": "#EF4444"
     },
     {
-      "label": "Budget et économie",
+      "label": "Mouvements citoyens",
       "pct": 14,
-      "color": "#F59E0B"
-    },
-    {
-      "label": "Élections locales",
-      "pct": 12,
-      "color": "#6366F1"
-    },
-    {
-      "label": "Mouvements sociaux et jeunesse",
-      "pct": 6,
       "color": "#10B981"
     },
     {
-      "label": "Enjeux institutionnels",
-      "pct": 3,
+      "label": "Cybersécurité",
+      "pct": 8,
+      "color": "#6B7280"
+    },
+    {
+      "label": "Enjeux internationaux",
+      "pct": 5,
       "color": "#8B5CF6"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "La viabilité économique du modèle français",
-      "summary": "Entre appels au « patriotisme fiscal » et annonces de réductions drastiques, comment concilier ambitions sociales et équilibre budgétaire en 2027 ?"
+      "title": "Contrôle de l'ordre public sans état d'urgence",
+      "summary": "Macron affirme tenir la République sans mesures d'exception. Est-ce suffisant face à l'escalade de tensions ? Quel est le juste équilibre entre libertés et sécurité ?"
     },
     {
       "id": "topic-2",
-      "title": "L'extrême droite peut-elle se « dédiaboliser » ?",
-      "summary": "Le RN affiche une façade modernisée, mais ses héritages antisémite et autoritaire demeurent. Jusqu'où peut aller cette transformation ?"
+      "title": "Responsabilité politique et violence raciste",
+      "summary": "La gauche accuse l'extrême droite de nourrir les discours haineux après l'attentat de Trappes. Où se situe la limite entre liberté d'expression et incitation ?"
     },
     {
       "id": "topic-3",
-      "title": "La gauche peut-elle se refonder autour de Glucksmann ?",
-      "summary": "Après sa victoire primaire, le candidat social-démocrate peut-il réconcilier réformisme et mobilisations citoyennes avant le scrutin ?"
+      "title": "Union de la gauche face aux élections présidentielles",
+      "summary": "Après les divisions de la primaire socialiste, peut-on espérer une mobilisation unie contre les autres blocs ? La victoire de Lula inspire-t-elle une stratégie française ?"
     },
     {
       "id": "topic-4",
-      "title": "Éducation : inégalités régionales et mobilisation lycéenne",
-      "summary": "Baisse des dotations dans certains lycées défavorisés : comment articuler besoins locaux et revendications nationales de la jeunesse ?"
+      "title": "Crise financière et rôle de la BCE",
+      "summary": "Les taux d'intérêt français s'envolent. La France risque-t-elle une intervention d'urgence de la banque centrale ? Quelles conséquences budgétaires et politiques ?"
     },
     {
       "id": "topic-5",
-      "title": "La démocratie locale face aux contentieux électoraux",
-      "summary": "Trois annulations d'élections municipales en Rhône soulèvent des questions : quels contrôles, quelles garanties pour la légitimité électorale ?"
+      "title": "Résilience démocratique face aux autoritarismes",
+      "summary": "Serbie, Brésil, Suède : les mouvements citoyens et électoraux peuvent-ils vraiment battre les régimes autoritaires ? Que nous apprennent ces scrutins pour 2027 ?"
     },
     {
       "id": "topic-6",
-      "title": "Culture et espace public : quelle vision pour demain ?",
-      "summary": "Au-delà des critiques d'une « pensée piétinée », comment imaginer un projet culturel fédérateur face aux polarisations actuelles ?"
+      "title": "Sécurité des données politiques et démocratie",
+      "summary": "Après les piratages massifs, comment protéger les institutions politiques ? Le cyberespace devient-il le nouveau champ de bataille démocratique ?"
     }
   ]
 }
