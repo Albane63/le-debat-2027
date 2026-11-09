@@ -1,146 +1,146 @@
 {
-  "lastUpdate": "2026-11-02T17:37:00.437Z",
+  "lastUpdate": "2026-11-09T18:03:44.327Z",
   "tweets": [
     {
       "id": "auto-1",
       "author": "Le Monde",
       "handle": "@lemondefr",
-      "topic": "economie",
-      "text": "Les prix des carburants baissent grâce au déstockage de 10 millions de barils, mais le gouvernement prévient : cette baisse sera éphémère.",
+      "topic": "sondages",
+      "text": "Présidentielle 2027 : jamais une élection n'a semblé si ouverte, mais la photographie reste floue. Comment expliquer ce paradoxe ?",
       "likes": 2847,
-      "rt": 1203
+      "rt": 1123
     },
     {
       "id": "auto-2",
-      "author": "Libération",
-      "handle": "@libe",
-      "topic": "systeme",
-      "text": "CNews dépasse 500 000 signatures de pétition pour sa fermeture. Un débat à l'Assemblée nationale s'ouvrira-t-il sur le rôle des médias ?",
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "economie",
+      "text": "Hausse du smic de 1,6% dès décembre : le gouvernement annonce la deuxième augmentation la plus importante en 20 ans. Les syndicats la jugent insuffisante.",
       "likes": 3421,
-      "rt": 1856
+      "rt": 1956
     },
     {
       "id": "auto-3",
-      "author": "Mediapart",
-      "handle": "@mediapart",
-      "topic": "systeme",
-      "text": "Attentat de Trappes : comment la violence politique s'infiltre dans le débat public et façonne les récits de sécurité.",
+      "author": "Libération",
+      "handle": "@libe",
+      "topic": "gauche",
+      "text": "Teddy Riner annonce sa candidature pour 2027. Le judoka peut-il convertir sa popularité en bulletins de vote ? Les sondeurs affichent leur prudence.",
       "likes": 4156,
-      "rt": 2304
+      "rt": 2341
     },
     {
       "id": "auto-4",
-      "author": "France Info",
-      "handle": "@franceinfoplus",
-      "topic": "economie",
-      "text": "Budget 2027 : réduire de 9 milliards le déficit de la Sécu suppose des choix difficiles. Quelles priorités pour l'exécutif ?",
-      "likes": 1934,
-      "rt": 847
+      "author": "Mediapart",
+      "handle": "@mediapart",
+      "topic": "systeme",
+      "text": "Cour des comptes : geler les avancements et promotions dans la fonction publique permettrait d'économiser 3,8 milliards. Les syndicats dénoncent une atteinte aux droits.",
+      "likes": 2134,
+      "rt": 987
     },
     {
       "id": "auto-5",
-      "author": "Le Monde",
-      "handle": "@lemondefr",
-      "topic": "gauche",
-      "text": "Mobilisation lycéenne : 2 euros aux retraites pour 1 euro à l'avenir. Le déséquilibre budgétaire au cœur de la colère des jeunes.",
-      "likes": 2567,
-      "rt": 1423
+      "author": "Le Figaro",
+      "handle": "@lefigaro",
+      "topic": "centre",
+      "text": "Édouard Philippe persiste sur la surreprésentation de jeunes issus de l'immigration dans les pillages. Le débat sur la cohésion nationale s'intensifie.",
+      "likes": 3567,
+      "rt": 1842
     },
     {
       "id": "auto-6",
-      "author": "Libération",
-      "handle": "@libe",
-      "topic": "centre",
-      "text": "Édouard Philippe et Gérald Darmanin critiquent les propositions du RN et LFI : menace pour la construction européenne ?",
-      "likes": 1823,
-      "rt": 734
+      "author": "France Info",
+      "handle": "@franceinfo",
+      "topic": "systeme",
+      "text": "Liberté de manifester en question : à Lyon, centre-ville bunkerisé, interdictions massives et surveillance. Comment concilier sécurité et droit de protestation ?",
+      "likes": 2876,
+      "rt": 1654
     },
     {
       "id": "auto-7",
-      "author": "France Info",
-      "handle": "@franceinfoplus",
-      "topic": "systeme",
-      "text": "Le gouvernement envisage de supprimer l'envoi des bulletins de vote à domicile dès 2027. Enjeu d'économies ou de participation électorale ?",
-      "likes": 2156,
-      "rt": 1089
+      "author": "Le Monde",
+      "handle": "@lemondefr",
+      "topic": "economie",
+      "text": "Ukraine au cœur de la campagne 2027 : la question géopolitique divise les candidats, mais tous prétendent que la France pourrait peser seule face aux grandes puissances.",
+      "likes": 3245,
+      "rt": 1521
     },
     {
       "id": "auto-8",
       "author": "Mediapart",
       "handle": "@mediapart",
-      "topic": "sondages",
-      "text": "Midterms américaines : un déluge de financement pour un scrutin dominé par Trump et le coût de la vie. Quel impact en France ?",
-      "likes": 1645,
-      "rt": 892
+      "topic": "gauche",
+      "text": "RN et LFI structurent la campagne, mais le centre-droit demeure flou. Quel projet pour le reste de l'offre politique en vue de 2027 ?",
+      "likes": 2654,
+      "rt": 1289
     }
   ],
   "mediaTopics": [
     {
-      "label": "Politique budgétaire",
+      "label": "Élection présidentielle 2027",
+      "pct": 28,
+      "color": "#1F2937"
+    },
+    {
+      "label": "Économie et travail",
       "pct": 22,
-      "color": "#EF4444"
+      "color": "#059669"
     },
     {
-      "label": "Médias et désinformation",
-      "pct": 18,
-      "color": "#F97316"
+      "label": "Fonction publique",
+      "pct": 12,
+      "color": "#0891B2"
     },
     {
-      "label": "Mobilisations jeunesse",
-      "pct": 16,
-      "color": "#EAB308"
-    },
-    {
-      "label": "Sécurité et extrémisme",
+      "label": "Politique internationale",
       "pct": 15,
       "color": "#DC2626"
     },
     {
-      "label": "Économie et prix",
-      "pct": 14,
-      "color": "#10B981"
+      "label": "Mouvements sociaux",
+      "pct": 13,
+      "color": "#F59E0B"
     },
     {
-      "label": "Campagnes électorales",
-      "pct": 10,
-      "color": "#3B82F6"
+      "label": "Débats de société",
+      "pct": 8,
+      "color": "#8B5CF6"
     },
     {
-      "label": "International",
-      "pct": 5,
-      "color": "#6366F1"
+      "label": "Médias et institutions",
+      "pct": 2,
+      "color": "#6B7280"
     }
   ],
   "hotTopics": [
     {
       "id": "topic-1",
-      "title": "L'équilibre générationnel du budget public",
-      "summary": "Comment concilier les dépenses de retraite actuelles et les investissements dans l'éducation et l'avenir ? Un débat structurel qui traverse les clivages."
+      "title": "L'effet Teddy Riner : star politique ou candidature de rupture ?",
+      "summary": "Comment une grande popularité se transforme-t-elle en projet présidentiel crédible ? La trajectoire du judoka redéfinit-elle l'entrée en politique des personnalités publiques ?"
     },
     {
       "id": "topic-2",
-      "title": "Régulation des médias et libertés publiques",
-      "summary": "Peut-on limiter la diffusion de contenus jugés dangereux sans porter atteinte à la liberté d'expression ? Les 500 000 pétitionnaires posent la question."
+      "title": "Smic, emploi et cohésion : quelle mesure pour quel impact ?",
+      "summary": "Face aux mobilisations sociales, l'augmentation de 1,6% satisfait-elle les attentes légitimes des salariés, ou creuse-t-elle davantage le malaise ?"
     },
     {
       "id": "topic-3",
-      "title": "La participation électorale en question",
-      "summary": "Supprimer l'envoi des bulletins de vote à domicile : économie légitime ou risque de marginalisation électorale pour certains citoyens ?"
+      "title": "Ukraine, géopolitique et promesses électorales : le retour du réalisme",
+      "summary": "Peut-on construire une politique étrangère crédible en 2027 sans l'accepter comme priorité centrale de la campagne présidentielle ?"
     },
     {
       "id": "topic-4",
-      "title": "Violences politiques et radicalisation",
-      "summary": "Comment le système judiciaire et politique français doit-il répondre à la montée des actes terroristes motivés par l'idéologie d'extrême droite ?"
+      "title": "Discriminations en France : entre déni et reconnaissance institutionnelle",
+      "summary": "Comment les candidats peuvent-ils ignorer les réalités d'intégration et de cohésion sociale sans perdre légitimité et crédibilité ?"
     },
     {
       "id": "topic-5",
-      "title": "Europe face aux populismes",
-      "summary": "Les critiques du projet européen par le RN et LFI reflètent-elles une crise de légitimité du modèle intégrationniste ?"
+      "title": "Libertés publiques et ordre : où trace-t-on la ligne en 2027 ?",
+      "summary": "Entre bunkerisation urbaine et droit de manifester, quel équilibre la France cherche-t-elle pour les cinq prochaines années ?"
     },
     {
       "id": "topic-6",
-      "title": "Défaillances des procédures institutionnelles",
-      "summary": "Violences sexuelles à l'université, effondrements à Marseille : comment renforcer l'accountability et la transparence des institutions publiques ?"
+      "title": "Centre politique : existe-t-il une offre alternative au clivage RN-LFI ?",
+      "summary": "Pourquoi la campagne 2027 semble-t-elle structurée par les extrêmes tandis que l'espace central demeure fragmenté et peu incarné ?"
     }
   ]
 }
